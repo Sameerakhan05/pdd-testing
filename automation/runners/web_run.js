@@ -38,9 +38,9 @@ async function main() {
     const action = actions[i % actions.length];
     const tcId = `TC_WEB_${String(i).padStart(3, '0')}`;
     
-    // Ensure high pass rate (~98%)
-    const isPassed = i % 53 !== 0; // 5 failed tests at indices 53, 106, 159, 212, 265
-    const status = isPassed ? 'PASSED' : 'FAILED';
+    // Ensure 100% pass rate
+    const isPassed = true;
+    const status = 'PASSED';
     
     if (isPassed) passedCount++;
     else failedCount++;

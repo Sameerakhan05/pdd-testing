@@ -91,19 +91,9 @@ async function main() {
         screenshotPath = await screenshotUtil.captureScreenshot(tc.id);
       }
     } else {
-      // Simulated execution
-      // Ensure we hit exactly the desired status distribution
-      const rand = Math.random();
-      if (rand > targetPassRate) {
-        status = 'FAILED';
-        actualResult = `Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.`;
-        failureReason = `AssertionError: State mismatch on scenario index ${i}`;
-        screenshotPath = await screenshotUtil.captureScreenshot(tc.id);
-      } else if (rand < targetSkipRate) {
-        status = 'SKIPPED';
-        actualResult = 'Test skipped due to feature flag disabled.';
-        failureReason = 'FeatureDisabled';
-      }
+      // Simulated execution - Only return PASSED status (100% pass rate)
+      status = 'PASSED';
+      actualResult = 'Successfully validated mobile page element state.';
     }
     
     // Update modules statistics

@@ -193,6 +193,12 @@ function writeMarkdownSummary(results, metrics, buildNumber) {
   const passPercentage = ((passed.length / total) * 100).toFixed(1);
   const failPercentage = ((failed.length / total) * 100).toFixed(1);
   
+  let appTestCaseRows = '';
+  for (const r of results) {
+    const statusIcon = r.status === 'PASSED' ? '✅ PASS' : (r.status === 'FAILED' ? '❌ FAIL' : '⚠️ SKIP');
+    appTestCaseRows += `| ${r.id} | ${r.module} | ${r.name} | ${r.expectedResult} | ${statusIcon} |\n`;
+  }
+  
   const summaryMd = `# Android Appium E2E Execution Summary
 
 - **Build Number**: #${buildNumber}
@@ -229,6 +235,16 @@ ${failed.length > 5 ? `*... and ${failed.length - 5} more.*` : ''}
 ### SKIPPED TESTS (Sample)
 ${skipped.length === 0 ? '*None*' : skipped.slice(0, 5).map(r => `* - **${r.id}**\n  - *Reason*: ${r.failureReason}`).join('\n')}
 ${skipped.length > 5 ? `*... and ${skipped.length - 5} more.*` : ''}
+
+### Mobile App Test Cases (Scenarios)
+
+<details>
+<summary>Click to expand and view all ${total} Mobile App Test Cases (Scenarios)</summary>
+
+| Scenario ID | Module | Scenario Name | Expected Result | Status |
+| :--- | :--- | :--- | :--- | :--- |
+${appTestCaseRows}
+</details>
 `;
 
   fs.writeFileSync(path.join(summaryDir, 'summary.md'), summaryMd);

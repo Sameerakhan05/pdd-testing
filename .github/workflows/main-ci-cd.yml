@@ -26,11 +26,30 @@ jobs:
         with:
           node-version: 18
 
-      - name: Run Selenium Tests (Simulation / Verification)
+      - name: Install Dependencies
         run: |
-          echo "Starting Selenium E2E Web Tests..."
-          echo "Locating elements: #email, #password, #login-button..."
-          echo "Status: PASSED"
+          cd automation
+          npm install
+
+      - name: Run Web E2E Tests
+        run: |
+          cd automation
+          npm run test:web
+
+      - name: Publish Web E2E Test Summary
+        if: always()
+        run: |
+          cat automation/reports/summary/web-test-summary.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload Web E2E Test Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: saferoute-web-reports-build-${{ github.run_number }}
+          path: |
+            automation/reports/summary/web-test-summary.md
+            automation/reports/json/web-execution-results.json
+          retention-days: 30
 
   # ── JOB 2: Build & Deploy Frontend (Runs after Selenium Web Tests pass) ──
   deploy-frontend:
@@ -52,9 +71,10 @@ jobs:
           echo "Deploying frontend pages to GitHub Pages..."
           echo "Status: DEPLOYED SUCCESS"
 
-  # ── JOB 3: Appium Mobile Tests (Runs in parallel) ──
+  # ── JOB 3: Appium Mobile Tests ──
   appium-tests:
     name: Appium Mobile Tests
+    needs: selenium-tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -115,6 +135,14 @@ jobs:
             automation/logs/
           retention-days: 30
 
+      - name: Download Web E2E Artifacts
+        if: always()
+        uses: actions/download-artifact@v4
+        with:
+          name: saferoute-web-reports-build-${{ github.run_number }}
+          path: automation/reports/web-latest
+        continue-on-error: true
+
       # ── DEPLOY APP E2E REPORTS TO GITHUB PAGES ──
       - name: Checkout Pages Branch
         if: always()
@@ -148,6 +176,7 @@ jobs:
           cp -r automation/reports/excel/* gh-pages-dir/reports/latest/ || true
           cp -r automation/reports/json/* gh-pages-dir/reports/latest/ || true
           cp -r automation/reports/summary/* gh-pages-dir/reports/latest/ || true
+          cp -r automation/reports/web-latest/* gh-pages-dir/reports/latest/ || true
           cp -r automation/screenshots/* gh-pages-dir/reports/latest/screenshots/ || true
           cp -r automation/logs/* gh-pages-dir/reports/latest/logs/ || true
           
@@ -156,6 +185,7 @@ jobs:
           cp -r automation/reports/excel/* gh-pages-dir/reports/history/build-${{ github.run_number }}/ || true
           cp -r automation/reports/json/* gh-pages-dir/reports/history/build-${{ github.run_number }}/ || true
           cp -r automation/reports/summary/* gh-pages-dir/reports/history/build-${{ github.run_number }}/ || true
+          cp -r automation/reports/web-latest/* gh-pages-dir/reports/history/build-${{ github.run_number }}/ || true
           cp -r automation/screenshots/* gh-pages-dir/reports/history/build-${{ github.run_number }}/screenshots/ || true
           cp -r automation/logs/* gh-pages-dir/reports/history/build-${{ github.run_number }}/logs/ || true
 

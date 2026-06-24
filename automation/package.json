@@ -5,7 +5,8 @@
   "main": "runners/run.js",
   "scripts": {
     "test": "node runners/run.js",
-    "test:mock": "cross-env MOCK_MODE=true node runners/run.js"
+    "test:mock": "cross-env MOCK_MODE=true node runners/run.js",
+    "test:web": "node runners/web_run.js"
   },
   "dependencies": {
     "exceljs": "^4.4.0",

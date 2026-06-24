@@ -50,3 +50,5 @@ node_modules/
 *.log
 automation/logs/
 automation/load-tests/k6-summary.json
+automation/reports/
+automation/screenshots/

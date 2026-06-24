@@ -60,16 +60,29 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Java
+        uses: actions/setup-java@v3
         with:
-          node-version: 18
+          distribution: 'zulu'
+          java-version: '17'
 
-      - name: Build and Deploy Frontend
-        run: |
-          echo "Building production frontend assets..."
-          echo "Deploying frontend pages to GitHub Pages..."
-          echo "Status: DEPLOYED SUCCESS"
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      - name: Install Flutter Dependencies
+        run: flutter pub get
+
+      - name: Build Flutter Web
+        run: flutter build web --release --base-href "/pdd-testing/"
+
+      - name: Deploy Frontend to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build/web
+          branch: gh-pages
+          clean: false
 
   # ── JOB 3: Appium Mobile Tests ──
   appium-tests:

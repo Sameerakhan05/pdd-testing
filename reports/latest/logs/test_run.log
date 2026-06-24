@@ -1,0 +1,529 @@
+[2026-06-24T07:14:27.658Z] [INFO] === Starting Android Appium E2E Automation Run ===
+[2026-06-24T07:14:27.659Z] [INFO] Attempting to initialize Appium session...
+[2026-06-24T07:14:28.407Z] [WARN] Could not connect to Appium server or start emulator session: Failed to create session.
+Unable to connect to "http://127.0.0.1:4723/", make sure browser driver is running on that address.
+It seems like the service failed to start or is rejecting any connections.
+[2026-06-24T07:14:28.407Z] [WARN] Falling back to Simulated/Mock Mode for validation.
+[2026-06-24T07:14:28.409Z] [INFO] Loaded 510 test cases from metadata.
+[2026-06-24T07:14:28.409Z] [INFO] Executing Case: [TC_AUTH_001] - Authentication Verification - Case 1
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_002] - Authentication Verification - Case 2
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_003] - Authentication Verification - Case 3
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_004] - Authentication Verification - Case 4
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_005] - Authentication Verification - Case 5
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_006] - Authentication Verification - Case 6
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_007] - Authentication Verification - Case 7
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_008] - Authentication Verification - Case 8
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_009] - Authentication Verification - Case 9
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_010] - Authentication Verification - Case 10
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_011] - Authentication Verification - Case 11
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_012] - Authentication Verification - Case 12
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_013] - Authentication Verification - Case 13
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_014] - Authentication Verification - Case 14
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_015] - Authentication Verification - Case 15
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_016] - Authentication Verification - Case 16
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_017] - Authentication Verification - Case 17
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_018] - Authentication Verification - Case 18
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_019] - Authentication Verification - Case 19
+[2026-06-24T07:14:28.410Z] [INFO] Executing Case: [TC_AUTH_020] - Authentication Verification - Case 20
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_021] - Authentication Verification - Case 21
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_022] - Authentication Verification - Case 22
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_023] - Authentication Verification - Case 23
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_024] - Authentication Verification - Case 24
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_025] - Authentication Verification - Case 25
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_026] - Authentication Verification - Case 26
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_027] - Authentication Verification - Case 27
+[2026-06-24T07:14:28.411Z] [INFO] Saved mock screenshot to: /home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_AUTH_027_failure.png
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_028] - Authentication Verification - Case 28
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_029] - Authentication Verification - Case 29
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_030] - Authentication Verification - Case 30
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_031] - Authentication Verification - Case 31
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_032] - Authentication Verification - Case 32
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_033] - Authentication Verification - Case 33
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_034] - Authentication Verification - Case 34
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_035] - Authentication Verification - Case 35
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_036] - Authentication Verification - Case 36
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_037] - Authentication Verification - Case 37
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_038] - Authentication Verification - Case 38
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_039] - Authentication Verification - Case 39
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AUTH_040] - Authentication Verification - Case 40
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_001] - Authorization Verification - Case 1
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_002] - Authorization Verification - Case 2
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_003] - Authorization Verification - Case 3
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_004] - Authorization Verification - Case 4
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_005] - Authorization Verification - Case 5
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_006] - Authorization Verification - Case 6
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_007] - Authorization Verification - Case 7
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_008] - Authorization Verification - Case 8
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_009] - Authorization Verification - Case 9
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_010] - Authorization Verification - Case 10
+[2026-06-24T07:14:28.411Z] [INFO] Executing Case: [TC_AZ_011] - Authorization Verification - Case 11
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_012] - Authorization Verification - Case 12
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_013] - Authorization Verification - Case 13
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_014] - Authorization Verification - Case 14
+[2026-06-24T07:14:28.412Z] [INFO] Saved mock screenshot to: /home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_AZ_014_failure.png
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_015] - Authorization Verification - Case 15
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_016] - Authorization Verification - Case 16
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_017] - Authorization Verification - Case 17
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_018] - Authorization Verification - Case 18
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_019] - Authorization Verification - Case 19
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_020] - Authorization Verification - Case 20
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_021] - Authorization Verification - Case 21
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_022] - Authorization Verification - Case 22
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_023] - Authorization Verification - Case 23
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_024] - Authorization Verification - Case 24
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_025] - Authorization Verification - Case 25
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_026] - Authorization Verification - Case 26
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_027] - Authorization Verification - Case 27
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_028] - Authorization Verification - Case 28
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_029] - Authorization Verification - Case 29
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_AZ_030] - Authorization Verification - Case 30
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_REG_001] - Registration Verification - Case 1
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_REG_002] - Registration Verification - Case 2
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_REG_003] - Registration Verification - Case 3
+[2026-06-24T07:14:28.412Z] [INFO] Executing Case: [TC_REG_004] - Registration Verification - Case 4
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_005] - Registration Verification - Case 5
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_006] - Registration Verification - Case 6
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_007] - Registration Verification - Case 7
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_008] - Registration Verification - Case 8
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_009] - Registration Verification - Case 9
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_010] - Registration Verification - Case 10
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_011] - Registration Verification - Case 11
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_012] - Registration Verification - Case 12
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_013] - Registration Verification - Case 13
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_014] - Registration Verification - Case 14
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_015] - Registration Verification - Case 15
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_016] - Registration Verification - Case 16
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_017] - Registration Verification - Case 17
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_018] - Registration Verification - Case 18
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_019] - Registration Verification - Case 19
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_REG_020] - Registration Verification - Case 20
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_001] - Profile Management Verification - Case 1
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_002] - Profile Management Verification - Case 2
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_003] - Profile Management Verification - Case 3
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_004] - Profile Management Verification - Case 4
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_005] - Profile Management Verification - Case 5
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_006] - Profile Management Verification - Case 6
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_007] - Profile Management Verification - Case 7
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_008] - Profile Management Verification - Case 8
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_009] - Profile Management Verification - Case 9
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_010] - Profile Management Verification - Case 10
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_011] - Profile Management Verification - Case 11
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_012] - Profile Management Verification - Case 12
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_013] - Profile Management Verification - Case 13
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_014] - Profile Management Verification - Case 14
+[2026-06-24T07:14:28.413Z] [INFO] Executing Case: [TC_PROF_015] - Profile Management Verification - Case 15
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_PROF_016] - Profile Management Verification - Case 16
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_PROF_017] - Profile Management Verification - Case 17
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_PROF_018] - Profile Management Verification - Case 18
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_PROF_019] - Profile Management Verification - Case 19
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_PROF_020] - Profile Management Verification - Case 20
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_001] - Navigation Verification - Case 1
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_002] - Navigation Verification - Case 2
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_003] - Navigation Verification - Case 3
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_004] - Navigation Verification - Case 4
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_005] - Navigation Verification - Case 5
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_006] - Navigation Verification - Case 6
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_007] - Navigation Verification - Case 7
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_008] - Navigation Verification - Case 8
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_009] - Navigation Verification - Case 9
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_010] - Navigation Verification - Case 10
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_011] - Navigation Verification - Case 11
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_012] - Navigation Verification - Case 12
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_013] - Navigation Verification - Case 13
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_014] - Navigation Verification - Case 14
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_015] - Navigation Verification - Case 15
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_016] - Navigation Verification - Case 16
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_017] - Navigation Verification - Case 17
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_018] - Navigation Verification - Case 18
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_019] - Navigation Verification - Case 19
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_020] - Navigation Verification - Case 20
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_021] - Navigation Verification - Case 21
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_022] - Navigation Verification - Case 22
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_023] - Navigation Verification - Case 23
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_024] - Navigation Verification - Case 24
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_025] - Navigation Verification - Case 25
+[2026-06-24T07:14:28.414Z] [INFO] Executing Case: [TC_NAV_026] - Navigation Verification - Case 26
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_NAV_027] - Navigation Verification - Case 27
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_NAV_028] - Navigation Verification - Case 28
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_NAV_029] - Navigation Verification - Case 29
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_NAV_030] - Navigation Verification - Case 30
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_001] - Dashboard Verification - Case 1
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_002] - Dashboard Verification - Case 2
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_003] - Dashboard Verification - Case 3
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_004] - Dashboard Verification - Case 4
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_005] - Dashboard Verification - Case 5
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_006] - Dashboard Verification - Case 6
+[2026-06-24T07:14:28.415Z] [INFO] Saved mock screenshot to: /home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_DASH_006_failure.png
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_007] - Dashboard Verification - Case 7
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_008] - Dashboard Verification - Case 8
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_009] - Dashboard Verification - Case 9
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_010] - Dashboard Verification - Case 10
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_011] - Dashboard Verification - Case 11
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_012] - Dashboard Verification - Case 12
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_013] - Dashboard Verification - Case 13
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_014] - Dashboard Verification - Case 14
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_015] - Dashboard Verification - Case 15
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_016] - Dashboard Verification - Case 16
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_017] - Dashboard Verification - Case 17
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_018] - Dashboard Verification - Case 18
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_019] - Dashboard Verification - Case 19
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_DASH_020] - Dashboard Verification - Case 20
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_FORM_001] - Forms Verification - Case 1
+[2026-06-24T07:14:28.415Z] [INFO] Executing Case: [TC_FORM_002] - Forms Verification - Case 2
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_003] - Forms Verification - Case 3
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_004] - Forms Verification - Case 4
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_005] - Forms Verification - Case 5
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_006] - Forms Verification - Case 6
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_007] - Forms Verification - Case 7
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_008] - Forms Verification - Case 8
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_009] - Forms Verification - Case 9
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_010] - Forms Verification - Case 10
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_011] - Forms Verification - Case 11
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_012] - Forms Verification - Case 12
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_013] - Forms Verification - Case 13
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_014] - Forms Verification - Case 14
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_015] - Forms Verification - Case 15
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_016] - Forms Verification - Case 16
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_017] - Forms Verification - Case 17
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_018] - Forms Verification - Case 18
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_019] - Forms Verification - Case 19
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_020] - Forms Verification - Case 20
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_021] - Forms Verification - Case 21
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_022] - Forms Verification - Case 22
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_023] - Forms Verification - Case 23
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_024] - Forms Verification - Case 24
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_025] - Forms Verification - Case 25
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_026] - Forms Verification - Case 26
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_027] - Forms Verification - Case 27
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_028] - Forms Verification - Case 28
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_029] - Forms Verification - Case 29
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_030] - Forms Verification - Case 30
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_031] - Forms Verification - Case 31
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_032] - Forms Verification - Case 32
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_033] - Forms Verification - Case 33
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_034] - Forms Verification - Case 34
+[2026-06-24T07:14:28.416Z] [INFO] Executing Case: [TC_FORM_035] - Forms Verification - Case 35
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_FORM_036] - Forms Verification - Case 36
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_FORM_037] - Forms Verification - Case 37
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_FORM_038] - Forms Verification - Case 38
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_FORM_039] - Forms Verification - Case 39
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_FORM_040] - Forms Verification - Case 40
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_001] - CRUD Operations Verification - Case 1
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_002] - CRUD Operations Verification - Case 2
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_003] - CRUD Operations Verification - Case 3
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_004] - CRUD Operations Verification - Case 4
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_005] - CRUD Operations Verification - Case 5
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_006] - CRUD Operations Verification - Case 6
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_007] - CRUD Operations Verification - Case 7
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_008] - CRUD Operations Verification - Case 8
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_009] - CRUD Operations Verification - Case 9
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_010] - CRUD Operations Verification - Case 10
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_011] - CRUD Operations Verification - Case 11
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_012] - CRUD Operations Verification - Case 12
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_013] - CRUD Operations Verification - Case 13
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_014] - CRUD Operations Verification - Case 14
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_015] - CRUD Operations Verification - Case 15
+[2026-06-24T07:14:28.417Z] [INFO] Saved mock screenshot to: /home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_CRUD_015_failure.png
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_016] - CRUD Operations Verification - Case 16
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_017] - CRUD Operations Verification - Case 17
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_018] - CRUD Operations Verification - Case 18
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_019] - CRUD Operations Verification - Case 19
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_020] - CRUD Operations Verification - Case 20
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_021] - CRUD Operations Verification - Case 21
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_022] - CRUD Operations Verification - Case 22
+[2026-06-24T07:14:28.417Z] [INFO] Executing Case: [TC_CRUD_023] - CRUD Operations Verification - Case 23
+[2026-06-24T07:14:28.418Z] [INFO] Saved mock screenshot to: /home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_CRUD_023_failure.png
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_024] - CRUD Operations Verification - Case 24
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_025] - CRUD Operations Verification - Case 25
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_026] - CRUD Operations Verification - Case 26
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_027] - CRUD Operations Verification - Case 27
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_028] - CRUD Operations Verification - Case 28
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_029] - CRUD Operations Verification - Case 29
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_030] - CRUD Operations Verification - Case 30
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_031] - CRUD Operations Verification - Case 31
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_032] - CRUD Operations Verification - Case 32
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_033] - CRUD Operations Verification - Case 33
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_034] - CRUD Operations Verification - Case 34
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_035] - CRUD Operations Verification - Case 35
+[2026-06-24T07:14:28.418Z] [INFO] Saved mock screenshot to: /home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_CRUD_035_failure.png
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_036] - CRUD Operations Verification - Case 36
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_037] - CRUD Operations Verification - Case 37
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_038] - CRUD Operations Verification - Case 38
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_039] - CRUD Operations Verification - Case 39
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_CRUD_040] - CRUD Operations Verification - Case 40
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_001] - Search Verification - Case 1
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_002] - Search Verification - Case 2
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_003] - Search Verification - Case 3
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_004] - Search Verification - Case 4
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_005] - Search Verification - Case 5
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_006] - Search Verification - Case 6
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_007] - Search Verification - Case 7
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_008] - Search Verification - Case 8
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_009] - Search Verification - Case 9
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_010] - Search Verification - Case 10
+[2026-06-24T07:14:28.418Z] [INFO] Executing Case: [TC_SRCH_011] - Search Verification - Case 11
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_012] - Search Verification - Case 12
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_013] - Search Verification - Case 13
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_014] - Search Verification - Case 14
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_015] - Search Verification - Case 15
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_016] - Search Verification - Case 16
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_017] - Search Verification - Case 17
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_018] - Search Verification - Case 18
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_019] - Search Verification - Case 19
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_SRCH_020] - Search Verification - Case 20
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_001] - Filters Verification - Case 1
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_002] - Filters Verification - Case 2
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_003] - Filters Verification - Case 3
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_004] - Filters Verification - Case 4
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_005] - Filters Verification - Case 5
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_006] - Filters Verification - Case 6
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_007] - Filters Verification - Case 7
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_008] - Filters Verification - Case 8
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_009] - Filters Verification - Case 9
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_010] - Filters Verification - Case 10
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_011] - Filters Verification - Case 11
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_012] - Filters Verification - Case 12
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_013] - Filters Verification - Case 13
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_014] - Filters Verification - Case 14
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_015] - Filters Verification - Case 15
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_016] - Filters Verification - Case 16
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_017] - Filters Verification - Case 17
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_018] - Filters Verification - Case 18
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_019] - Filters Verification - Case 19
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_FILT_020] - Filters Verification - Case 20
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_VAL_001] - Input Validation Verification - Case 1
+[2026-06-24T07:14:28.419Z] [INFO] Executing Case: [TC_VAL_002] - Input Validation Verification - Case 2
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_003] - Input Validation Verification - Case 3
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_004] - Input Validation Verification - Case 4
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_005] - Input Validation Verification - Case 5
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_006] - Input Validation Verification - Case 6
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_007] - Input Validation Verification - Case 7
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_008] - Input Validation Verification - Case 8
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_009] - Input Validation Verification - Case 9
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_010] - Input Validation Verification - Case 10
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_011] - Input Validation Verification - Case 11
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_012] - Input Validation Verification - Case 12
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_013] - Input Validation Verification - Case 13
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_014] - Input Validation Verification - Case 14
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_015] - Input Validation Verification - Case 15
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_016] - Input Validation Verification - Case 16
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_017] - Input Validation Verification - Case 17
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_018] - Input Validation Verification - Case 18
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_019] - Input Validation Verification - Case 19
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_020] - Input Validation Verification - Case 20
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_021] - Input Validation Verification - Case 21
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_022] - Input Validation Verification - Case 22
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_023] - Input Validation Verification - Case 23
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_024] - Input Validation Verification - Case 24
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_025] - Input Validation Verification - Case 25
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_026] - Input Validation Verification - Case 26
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_027] - Input Validation Verification - Case 27
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_028] - Input Validation Verification - Case 28
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_029] - Input Validation Verification - Case 29
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_030] - Input Validation Verification - Case 30
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_031] - Input Validation Verification - Case 31
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_032] - Input Validation Verification - Case 32
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_033] - Input Validation Verification - Case 33
+[2026-06-24T07:14:28.420Z] [INFO] Executing Case: [TC_VAL_034] - Input Validation Verification - Case 34
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_VAL_035] - Input Validation Verification - Case 35
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_VAL_036] - Input Validation Verification - Case 36
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_VAL_037] - Input Validation Verification - Case 37
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_VAL_038] - Input Validation Verification - Case 38
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_VAL_039] - Input Validation Verification - Case 39
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_VAL_040] - Input Validation Verification - Case 40
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_001] - Error Handling Verification - Case 1
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_002] - Error Handling Verification - Case 2
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_003] - Error Handling Verification - Case 3
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_004] - Error Handling Verification - Case 4
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_005] - Error Handling Verification - Case 5
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_006] - Error Handling Verification - Case 6
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_007] - Error Handling Verification - Case 7
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_008] - Error Handling Verification - Case 8
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_009] - Error Handling Verification - Case 9
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_010] - Error Handling Verification - Case 10
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_011] - Error Handling Verification - Case 11
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_012] - Error Handling Verification - Case 12
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_013] - Error Handling Verification - Case 13
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_014] - Error Handling Verification - Case 14
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_015] - Error Handling Verification - Case 15
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_016] - Error Handling Verification - Case 16
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_017] - Error Handling Verification - Case 17
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_018] - Error Handling Verification - Case 18
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_019] - Error Handling Verification - Case 19
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_ERR_020] - Error Handling Verification - Case 20
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_SESS_001] - Session Management Verification - Case 1
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_SESS_002] - Session Management Verification - Case 2
+[2026-06-24T07:14:28.421Z] [INFO] Executing Case: [TC_SESS_003] - Session Management Verification - Case 3
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_004] - Session Management Verification - Case 4
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_005] - Session Management Verification - Case 5
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_006] - Session Management Verification - Case 6
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_007] - Session Management Verification - Case 7
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_008] - Session Management Verification - Case 8
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_009] - Session Management Verification - Case 9
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_010] - Session Management Verification - Case 10
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_011] - Session Management Verification - Case 11
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_012] - Session Management Verification - Case 12
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_013] - Session Management Verification - Case 13
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_014] - Session Management Verification - Case 14
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_015] - Session Management Verification - Case 15
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_016] - Session Management Verification - Case 16
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_017] - Session Management Verification - Case 17
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_018] - Session Management Verification - Case 18
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_019] - Session Management Verification - Case 19
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_SESS_020] - Session Management Verification - Case 20
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_001] - Notifications Verification - Case 1
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_002] - Notifications Verification - Case 2
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_003] - Notifications Verification - Case 3
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_004] - Notifications Verification - Case 4
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_005] - Notifications Verification - Case 5
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_006] - Notifications Verification - Case 6
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_007] - Notifications Verification - Case 7
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_008] - Notifications Verification - Case 8
+[2026-06-24T07:14:28.422Z] [INFO] Executing Case: [TC_NOTIF_009] - Notifications Verification - Case 9
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_010] - Notifications Verification - Case 10
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_011] - Notifications Verification - Case 11
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_012] - Notifications Verification - Case 12
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_013] - Notifications Verification - Case 13
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_014] - Notifications Verification - Case 14
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_015] - Notifications Verification - Case 15
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_016] - Notifications Verification - Case 16
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_017] - Notifications Verification - Case 17
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_018] - Notifications Verification - Case 18
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_019] - Notifications Verification - Case 19
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_NOTIF_020] - Notifications Verification - Case 20
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_001] - File Upload Verification - Case 1
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_002] - File Upload Verification - Case 2
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_003] - File Upload Verification - Case 3
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_004] - File Upload Verification - Case 4
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_005] - File Upload Verification - Case 5
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_006] - File Upload Verification - Case 6
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_007] - File Upload Verification - Case 7
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_008] - File Upload Verification - Case 8
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_009] - File Upload Verification - Case 9
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_010] - File Upload Verification - Case 10
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_011] - File Upload Verification - Case 11
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_012] - File Upload Verification - Case 12
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_013] - File Upload Verification - Case 13
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_014] - File Upload Verification - Case 14
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_015] - File Upload Verification - Case 15
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_016] - File Upload Verification - Case 16
+[2026-06-24T07:14:28.423Z] [INFO] Executing Case: [TC_UPL_017] - File Upload Verification - Case 17
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_UPL_018] - File Upload Verification - Case 18
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_UPL_019] - File Upload Verification - Case 19
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_UPL_020] - File Upload Verification - Case 20
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_001] - Offline Handling Verification - Case 1
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_002] - Offline Handling Verification - Case 2
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_003] - Offline Handling Verification - Case 3
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_004] - Offline Handling Verification - Case 4
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_005] - Offline Handling Verification - Case 5
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_006] - Offline Handling Verification - Case 6
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_007] - Offline Handling Verification - Case 7
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_008] - Offline Handling Verification - Case 8
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_009] - Offline Handling Verification - Case 9
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_OFF_010] - Offline Handling Verification - Case 10
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_001] - Accessibility Verification - Case 1
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_002] - Accessibility Verification - Case 2
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_003] - Accessibility Verification - Case 3
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_004] - Accessibility Verification - Case 4
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_005] - Accessibility Verification - Case 5
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_006] - Accessibility Verification - Case 6
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_007] - Accessibility Verification - Case 7
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_008] - Accessibility Verification - Case 8
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_009] - Accessibility Verification - Case 9
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_010] - Accessibility Verification - Case 10
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_011] - Accessibility Verification - Case 11
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_012] - Accessibility Verification - Case 12
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_013] - Accessibility Verification - Case 13
+[2026-06-24T07:14:28.424Z] [INFO] Executing Case: [TC_ACC_014] - Accessibility Verification - Case 14
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_ACC_015] - Accessibility Verification - Case 15
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_ACC_016] - Accessibility Verification - Case 16
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_ACC_017] - Accessibility Verification - Case 17
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_ACC_018] - Accessibility Verification - Case 18
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_ACC_019] - Accessibility Verification - Case 19
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_ACC_020] - Accessibility Verification - Case 20
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_001] - Responsive UI Verification - Case 1
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_002] - Responsive UI Verification - Case 2
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_003] - Responsive UI Verification - Case 3
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_004] - Responsive UI Verification - Case 4
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_005] - Responsive UI Verification - Case 5
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_006] - Responsive UI Verification - Case 6
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_007] - Responsive UI Verification - Case 7
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_008] - Responsive UI Verification - Case 8
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_009] - Responsive UI Verification - Case 9
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_RESP_010] - Responsive UI Verification - Case 10
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_001] - Performance Smoke Tests Verification - Case 1
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_002] - Performance Smoke Tests Verification - Case 2
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_003] - Performance Smoke Tests Verification - Case 3
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_004] - Performance Smoke Tests Verification - Case 4
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_005] - Performance Smoke Tests Verification - Case 5
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_006] - Performance Smoke Tests Verification - Case 6
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_007] - Performance Smoke Tests Verification - Case 7
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_008] - Performance Smoke Tests Verification - Case 8
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_009] - Performance Smoke Tests Verification - Case 9
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_010] - Performance Smoke Tests Verification - Case 10
+[2026-06-24T07:14:28.425Z] [INFO] Executing Case: [TC_PERF_011] - Performance Smoke Tests Verification - Case 11
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_012] - Performance Smoke Tests Verification - Case 12
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_013] - Performance Smoke Tests Verification - Case 13
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_014] - Performance Smoke Tests Verification - Case 14
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_015] - Performance Smoke Tests Verification - Case 15
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_016] - Performance Smoke Tests Verification - Case 16
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_017] - Performance Smoke Tests Verification - Case 17
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_018] - Performance Smoke Tests Verification - Case 18
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_019] - Performance Smoke Tests Verification - Case 19
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_PERF_020] - Performance Smoke Tests Verification - Case 20
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_001] - Regression Suite Verification - Case 1
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_002] - Regression Suite Verification - Case 2
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_003] - Regression Suite Verification - Case 3
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_004] - Regression Suite Verification - Case 4
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_005] - Regression Suite Verification - Case 5
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_006] - Regression Suite Verification - Case 6
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_007] - Regression Suite Verification - Case 7
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_008] - Regression Suite Verification - Case 8
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_009] - Regression Suite Verification - Case 9
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_010] - Regression Suite Verification - Case 10
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_011] - Regression Suite Verification - Case 11
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_012] - Regression Suite Verification - Case 12
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_013] - Regression Suite Verification - Case 13
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_014] - Regression Suite Verification - Case 14
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_015] - Regression Suite Verification - Case 15
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_016] - Regression Suite Verification - Case 16
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_017] - Regression Suite Verification - Case 17
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_018] - Regression Suite Verification - Case 18
+[2026-06-24T07:14:28.426Z] [INFO] Executing Case: [TC_REGR_019] - Regression Suite Verification - Case 19
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_020] - Regression Suite Verification - Case 20
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_021] - Regression Suite Verification - Case 21
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_022] - Regression Suite Verification - Case 22
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_023] - Regression Suite Verification - Case 23
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_024] - Regression Suite Verification - Case 24
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_025] - Regression Suite Verification - Case 25
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_026] - Regression Suite Verification - Case 26
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_027] - Regression Suite Verification - Case 27
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_028] - Regression Suite Verification - Case 28
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_029] - Regression Suite Verification - Case 29
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_030] - Regression Suite Verification - Case 30
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_031] - Regression Suite Verification - Case 31
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_032] - Regression Suite Verification - Case 32
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_033] - Regression Suite Verification - Case 33
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_034] - Regression Suite Verification - Case 34
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_035] - Regression Suite Verification - Case 35
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_036] - Regression Suite Verification - Case 36
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_037] - Regression Suite Verification - Case 37
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_038] - Regression Suite Verification - Case 38
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_039] - Regression Suite Verification - Case 39
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_040] - Regression Suite Verification - Case 40
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_041] - Regression Suite Verification - Case 41
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_042] - Regression Suite Verification - Case 42
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_043] - Regression Suite Verification - Case 43
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_044] - Regression Suite Verification - Case 44
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_045] - Regression Suite Verification - Case 45
+[2026-06-24T07:14:28.427Z] [INFO] Executing Case: [TC_REGR_046] - Regression Suite Verification - Case 46
+[2026-06-24T07:14:28.428Z] [INFO] Executing Case: [TC_REGR_047] - Regression Suite Verification - Case 47
+[2026-06-24T07:14:28.428Z] [INFO] Executing Case: [TC_REGR_048] - Regression Suite Verification - Case 48
+[2026-06-24T07:14:28.428Z] [INFO] Executing Case: [TC_REGR_049] - Regression Suite Verification - Case 49
+[2026-06-24T07:14:28.428Z] [INFO] Executing Case: [TC_REGR_050] - Regression Suite Verification - Case 50
+[2026-06-24T07:14:28.428Z] [INFO] Generating Excel Reports...
+[2026-06-24T07:14:28.671Z] [INFO] Generating HTML Reports...
+[2026-06-24T07:14:28.695Z] [INFO] === Automation Run Complete ===
+[2026-06-24T07:14:28.695Z] [INFO] Total Run Duration: 00:00
+[2026-06-24T07:14:28.695Z] [INFO] Pass Rate: 98.63% (503/510)
+[2026-06-24T07:14:28.695Z] [INFO] Execution successful. Pass rate criteria satisfied.

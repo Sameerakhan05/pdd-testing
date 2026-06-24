@@ -1,7 +1,7 @@
 # Android Appium E2E Execution Summary
 
 - **Build Number**: #1
-- **Execution Date**: Wed, 24 Jun 2026 06:58:41 GMT
+- **Execution Date**: Wed, 24 Jun 2026 07:10:41 GMT
 - **Git Commit**: `N/A`
 - **Branch**: `main`
 - **APK Version**: `1.0.0+1 (saferoute)`
@@ -14,9 +14,9 @@
 | Metric | Count | Percentage |
 | :--- | :--- | :--- |
 | **Total Test Cases** | 510 | 100% |
-| **Passed** | 496 | 97.3% |
-| **Failed** | 12 | 2.4% |
-| **Skipped** | 2 | 0.4% |
+| **Passed** | 505 | 99.0% |
+| **Failed** | 2 | 0.4% |
+| **Skipped** | 3 | 0.6% |
 | **Blocked** | 0 | 0.0% |
 
 ---
@@ -29,25 +29,21 @@
 * ✓ **TC_AUTH_003** - Authentication Verification - Case 3
 * ✓ **TC_AUTH_004** - Authentication Verification - Case 4
 * ✓ **TC_AUTH_005** - Authentication Verification - Case 5
-*... and 491 more.*
+*... and 500 more.*
 
 ### FAILED TESTS
-* ✗ **TC_AUTH_020** - Authentication Verification - Case 20
-  - *Reason*: AssertionError: State mismatch on scenario index 19
-* ✗ **TC_AUTH_023** - Authentication Verification - Case 23
-  - *Reason*: AssertionError: State mismatch on scenario index 22
-* ✗ **TC_PROF_002** - Profile Management Verification - Case 2
-  - *Reason*: AssertionError: State mismatch on scenario index 91
-* ✗ **TC_FORM_037** - Forms Verification - Case 37
-  - *Reason*: AssertionError: State mismatch on scenario index 196
-* ✗ **TC_SRCH_001** - Search Verification - Case 1
-  - *Reason*: AssertionError: State mismatch on scenario index 240
-*... and 7 more.*
+* ✗ **TC_VAL_012** - Input Validation Verification - Case 12
+  - *Reason*: AssertionError: State mismatch on scenario index 291
+* ✗ **TC_SESS_001** - Session Management Verification - Case 1
+  - *Reason*: AssertionError: State mismatch on scenario index 340
+
 
 ### SKIPPED TESTS (Sample)
-* - **TC_REGR_013**
+* - **TC_VAL_030**
   - *Reason*: FeatureDisabled
-* - **TC_REGR_014**
+* - **TC_NOTIF_018**
+  - *Reason*: FeatureDisabled
+* - **TC_REGR_003**
   - *Reason*: FeatureDisabled
 
 

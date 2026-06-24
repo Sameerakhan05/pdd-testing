@@ -66,7 +66,7 @@ jobs:
       - name: Setup Appium and Driver
         run: |
           npm install -g appium
-          appium driver install uiautomator2
+          appium driver install uiautomator2@2
 
       - name: Run E2E Test Suite
         env:

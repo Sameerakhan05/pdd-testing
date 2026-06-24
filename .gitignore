@@ -49,5 +49,3 @@ node_modules/
 **/node_modules/
 *.log
 automation/logs/
-automation/screenshots/
-automation/reports/

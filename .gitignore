@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Node modules & logs
+node_modules/
+**/node_modules/
+*.log
+automation/logs/
+automation/screenshots/
+automation/reports/

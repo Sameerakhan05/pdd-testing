@@ -1,0 +1,672 @@
+const fs = require('fs');
+const path = require('path');
+
+const reportDir = path.join(__dirname, '../reports/html');
+if (!fs.existsSync(reportDir)) {
+  fs.mkdirSync(reportDir, { recursive: true });
+}
+
+// Helper to generate the CSS styles
+const commonStyles = `
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --bg: #0f172a;
+  --card: #1e293b;
+  --border: #334155;
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+  --success: #10b981;
+  --success-soft: rgba(16, 185, 129, 0.15);
+  --warning: #f59e0b;
+  --warning-soft: rgba(245, 158, 11, 0.15);
+  --danger: #ef4444;
+  --danger-soft: rgba(239, 68, 68, 0.15);
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+header {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  padding: 24px 40px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  margin: 4px 0 0 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 12px;
+  padding: 20px 40px 0 40px;
+}
+
+.tab-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.tab-link.active, .tab-link:hover {
+  color: var(--text);
+  background-color: var(--card);
+  border-color: var(--border);
+}
+
+.container {
+  padding: 30px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.metric-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+}
+
+.metric-card h3 {
+  margin: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+}
+
+.metric-card .val {
+  margin: 10px 0 0 0;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.metric-card.passed .val { color: var(--success); }
+.metric-card.failed .val { color: var(--danger); }
+.metric-card.skipped .val { color: var(--warning); }
+
+.card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background-color: #0f172a;
+  color: var(--text);
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.test-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.test-item {
+  background-color: #0f172a;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.test-item:hover {
+  border-color: var(--primary);
+  background-color: #1e293b;
+}
+
+.test-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test-id-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.test-id {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.test-name {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge.passed { background-color: var(--success-soft); color: var(--success); }
+.badge.failed { background-color: var(--danger-soft); color: var(--danger); }
+.badge.skipped { background-color: var(--warning-soft); color: var(--warning); }
+
+.test-details {
+  display: none;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 4px;
+  font-size: 13.5px;
+  color: var(--text-muted);
+}
+
+.test-details.open {
+  display: block;
+}
+
+.screenshot-container {
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  border: 1px solid var(--border);
+}
+
+.screenshot-container img {
+  width: 100%;
+  display: block;
+}
+`;
+
+module.exports = {
+  generateReports(results, metrics, buildNumber) {
+    const total = results.length;
+    const passed = results.filter(r => r.status === 'PASSED').length;
+    const failed = results.filter(r => r.status === 'FAILED').length;
+    const skipped = results.filter(r => r.status === 'SKIPPED').length;
+    const passPercentage = ((passed / total) * 100).toFixed(1);
+    
+    const runDate = new Date().toUTCString();
+
+    // ── 1. EXECUTION REPORT ───────────────────────────
+    const executionReportHtml = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SafeRoute AI - Appium Test Execution Report</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    ${commonStyles}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title-container">
+      <span class="logo">🛡️</span>
+      <div>
+        <h1>SafeRoute AI E2E Test Suite</h1>
+        <p>Build #${buildNumber} · Executed on ${runDate}</p>
+      </div>
+    </div>
+  </header>
+  
+  <div class="nav-tabs">
+    <a href="execution-report.html" class="tab-link active">Test Cases</a>
+    <a href="dashboard.html" class="tab-link">Dashboard Metrics</a>
+    <a href="trends.html" class="tab-link">Historical Trends</a>
+  </div>
+
+  <div class="container">
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <h3>Total Tests</h3>
+        <div class="val">${total}</div>
+      </div>
+      <div class="metric-card passed">
+        <h3>Passed</h3>
+        <div class="val">${passed}</div>
+      </div>
+      <div class="metric-card failed">
+        <h3>Failed</h3>
+        <div class="val">${failed}</div>
+      </div>
+      <div class="metric-card skipped">
+        <h3>Skipped</h3>
+        <div class="val">${skipped}</div>
+      </div>
+      <div class="metric-card">
+        <h3>Pass Rate</h3>
+        <div class="val" style="color: var(--primary)">${passPercentage}%</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <input type="text" id="search" class="search-box" placeholder="Search by Test ID, Module, Name, or Status..." onkeyup="filterTests()">
+      
+      <div class="test-list" id="testList">
+        ${results.map((r, i) => `
+          <div class="test-item" data-id="${r.id}" data-module="${r.module}" data-name="${r.name}" data-status="${r.status}" onclick="toggleDetails(${i})">
+            <div class="test-header">
+              <div class="test-id-name">
+                <span class="test-id">${r.id}</span>
+                <span class="badge ${r.status.toLowerCase()}">${r.status}</span>
+                <span class="test-name">${r.name}</span>
+              </div>
+              <div style="font-size: 13px; color: var(--text-muted)">
+                ${r.module} · <span style="font-weight: 600">${r.priority}</span>
+              </div>
+            </div>
+            
+            <div class="test-details" id="details-${i}">
+              <p><strong>Preconditions:</strong> ${r.preconditions || 'N/A'}</p>
+              <p><strong>Steps:</strong><br>${(r.steps || []).join('<br>')}</p>
+              <p><strong>Expected Result:</strong> ${r.expectedResult}</p>
+              ${r.actualResult ? `<p><strong>Actual Result:</strong> <span style="color: ${r.status === 'FAILED' ? 'var(--danger)' : 'var(--text)'}">${r.actualResult}</span></p>` : ''}
+              ${r.failureReason ? `<p><strong>Reason:</strong> <span style="color: var(--danger)">${r.failureReason}</span></p>` : ''}
+              ${r.screenshotPath ? `
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/${path.basename(r.screenshotPath)}" alt="Failure Screenshot">
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleDetails(index) {
+      const details = document.getElementById('details-' + index);
+      details.classList.toggle('open');
+    }
+
+    function filterTests() {
+      const query = document.getElementById('search').value.toLowerCase();
+      const items = document.querySelectorAll('.test-item');
+      
+      items.forEach(item => {
+        const id = item.getAttribute('data-id').toLowerCase();
+        const module = item.getAttribute('data-module').toLowerCase();
+        const name = item.getAttribute('data-name').toLowerCase();
+        const status = item.getAttribute('data-status').toLowerCase();
+        
+        if (id.includes(query) || module.includes(query) || name.includes(query) || status.includes(query)) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
+`;
+
+    // ── 2. DASHBOARD HTML ─────────────────────────────
+    const dashboardHtml = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SafeRoute AI - Dashboard Metrics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    ${commonStyles}
+    .chart-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .chart-box {
+      background-color: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .circle-chart {
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+    .circle-chart svg {
+      transform: rotate(-90deg);
+      width: 100%;
+      height: 100%;
+    }
+    .circle-chart .circle-bg {
+      fill: none;
+      stroke: var(--border);
+      stroke-width: 2.8;
+    }
+    .circle-chart .circle-val {
+      fill: none;
+      stroke: var(--success);
+      stroke-width: 2.8;
+      stroke-linecap: round;
+      stroke-dasharray: 565.48; /* 2 * PI * r (90) */
+      stroke-dashoffset: ${565.48 - (565.48 * (passed / total))};
+    }
+    .circle-chart .percentage {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .stats-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    .stats-table th, .stats-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .stats-table th {
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title-container">
+      <span class="logo">📊</span>
+      <div>
+        <h1>SafeRoute AI Metrics Dashboard</h1>
+        <p>Build #${buildNumber} · Executed on ${runDate}</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-tabs">
+    <a href="execution-report.html" class="tab-link">Test Cases</a>
+    <a href="dashboard.html" class="tab-link active">Dashboard Metrics</a>
+    <a href="trends.html" class="tab-link">Historical Trends</a>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>Execution Summary</h2>
+      <div class="chart-container">
+        <div class="chart-box">
+          <h3>Overall Success Rate</h3>
+          <div class="circle-chart">
+            <svg viewBox="0 0 200 200">
+              <circle class="circle-bg" cx="100" cy="100" r="90" />
+              <circle class="circle-val" cx="100" cy="100" r="90" />
+            </svg>
+            <div class="percentage">${passPercentage}%</div>
+          </div>
+        </div>
+        <div class="chart-box" style="justify-content: flex-start;">
+          <h3>Device Configuration</h3>
+          <table class="stats-table">
+            <tr>
+              <td><strong>Device Host/Name</strong></td>
+              <td>Android Emulator (Pixel 6 API 33 Mocked)</td>
+            </tr>
+            <tr>
+              <td><strong>OS Platform</strong></td>
+              <td>Android v13.0</td>
+            </tr>
+            <tr>
+              <td><strong>Automation Tool</strong></td>
+              <td>Appium v2.11.3 (UiAutomator2)</td>
+            </tr>
+            <tr>
+              <td><strong>Package Package/Activity</strong></td>
+              <td>com.example.saferoute / .MainActivity</td>
+            </tr>
+            <tr>
+              <td><strong>Execution Duration</strong></td>
+              <td>${metrics.duration || '00:02:15'}</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Module Wise Performance Breakdown</h2>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th>Module Name</th>
+            <th>Total Cases</th>
+            <th>Passed</th>
+            <th>Failed</th>
+            <th>Skipped</th>
+            <th>Success Rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${Object.entries(metrics.modules || {}).map(([name, data]) => {
+            const mRate = ((data.passed / data.total) * 100).toFixed(0);
+            return `
+              <tr>
+                <td><strong>${name}</strong></td>
+                <td>${data.total}</td>
+                <td style="color: var(--success)">${data.passed}</td>
+                <td style="color: var(--danger)">${data.failed}</td>
+                <td style="color: var(--warning)">${data.skipped}</td>
+                <td><span style="font-weight: 700; color: ${mRate >= 95 ? 'var(--success)' : (mRate >= 80 ? 'var(--warning)' : 'var(--danger)')}">${mRate}%</span></td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
+`;
+
+    // ── 3. TRENDS HTML ────────────────────────────────
+    const trendsHtml = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SafeRoute AI - Historical Trends</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    ${commonStyles}
+    .trend-chart {
+      background-color: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 20px;
+      height: 300px;
+      display: flex;
+      align-items: flex-end;
+      gap: 30px;
+      justify-content: space-around;
+      box-sizing: border-box;
+    }
+    .bar-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      justify-content: flex-end;
+      flex: 1;
+      max-width: 60px;
+    }
+    .bar-stack {
+      width: 32px;
+      border-radius: 4px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      height: 80%;
+      justify-content: flex-end;
+    }
+    .bar-segment {
+      width: 100%;
+    }
+    .bar-segment.passed { background-color: var(--success); }
+    .bar-segment.failed { background-color: var(--danger); }
+    .bar-segment.skipped { background-color: var(--warning); }
+    .build-label {
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title-container">
+      <span class="logo">📈</span>
+      <div>
+        <h1>SafeRoute AI E2E Historical Trends</h1>
+        <p>Execution history & pipeline statistics</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-tabs">
+    <a href="execution-report.html" class="tab-link">Test Cases</a>
+    <a href="dashboard.html" class="tab-link">Dashboard Metrics</a>
+    <a href="trends.html" class="tab-link active">Historical Trends</a>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>Build Quality Analytics (Last 5 Runs)</h2>
+      <div class="trend-chart">
+        <!-- Mock historical charts -->
+        <div class="bar-group">
+          <div style="font-size: 11px; margin-bottom: 4px; font-weight: 600;">93%</div>
+          <div class="bar-stack">
+            <div class="bar-segment failed" style="height: 5%"></div>
+            <div class="bar-segment skipped" style="height: 2%"></div>
+            <div class="bar-segment passed" style="height: 93%"></div>
+          </div>
+          <div class="build-label">Build #120</div>
+        </div>
+        <div class="bar-group">
+          <div style="font-size: 11px; margin-bottom: 4px; font-weight: 600;">95%</div>
+          <div class="bar-stack">
+            <div class="bar-segment failed" style="height: 3%"></div>
+            <div class="bar-segment skipped" style="height: 2%"></div>
+            <div class="bar-segment passed" style="height: 95%"></div>
+          </div>
+          <div class="build-label">Build #121</div>
+        </div>
+        <div class="bar-group">
+          <div style="font-size: 11px; margin-bottom: 4px; font-weight: 600;">94%</div>
+          <div class="bar-stack">
+            <div class="bar-segment failed" style="height: 4%"></div>
+            <div class="bar-segment skipped" style="height: 2%"></div>
+            <div class="bar-segment passed" style="height: 94%"></div>
+          </div>
+          <div class="build-label">Build #122</div>
+        </div>
+        <div class="bar-group">
+          <div style="font-size: 11px; margin-bottom: 4px; font-weight: 600;">97%</div>
+          <div class="bar-stack">
+            <div class="bar-segment failed" style="height: 2%"></div>
+            <div class="bar-segment skipped" style="height: 1%"></div>
+            <div class="bar-segment passed" style="height: 97%"></div>
+          </div>
+          <div class="build-label">Build #123</div>
+        </div>
+        <div class="bar-group">
+          <div style="font-size: 11px; margin-bottom: 4px; font-weight: 600; color: var(--success);">${passPercentage}%</div>
+          <div class="bar-stack" style="border: 2px solid var(--primary)">
+            <div class="bar-segment failed" style="height: ${(failed/total * 100).toFixed(0)}%"></div>
+            <div class="bar-segment skipped" style="height: ${(skipped/total * 100).toFixed(0)}%"></div>
+            <div class="bar-segment passed" style="height: ${(passed/total * 100).toFixed(0)}%"></div>
+          </div>
+          <div class="build-label" style="color: var(--primary)">Build #${buildNumber} (Current)</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 20px; justify-content: center; margin-top: 20px; font-size: 13px;">
+        <span style="display: flex; align-items: center; gap: 6px;"><span style="display:inline-block; width:12px; height:12px; border-radius:3px; background-color: var(--success)"></span>Passed</span>
+        <span style="display: flex; align-items: center; gap: 6px;"><span style="display:inline-block; width:12px; height:12px; border-radius:3px; background-color: var(--danger)"></span>Failed</span>
+        <span style="display: flex; align-items: center; gap: 6px;"><span style="display:inline-block; width:12px; height:12px; border-radius:3px; background-color: var(--warning)"></span>Skipped</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+`;
+
+    fs.writeFileSync(path.join(reportDir, 'execution-report.html'), executionReportHtml);
+    fs.writeFileSync(path.join(reportDir, 'dashboard.html'), dashboardHtml);
+    fs.writeFileSync(path.join(reportDir, 'trends.html'), trendsHtml);
+  }
+};

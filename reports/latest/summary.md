@@ -1,8 +1,8 @@
 # Android Appium E2E Execution Summary
 
-- **Build Number**: #4
-- **Execution Date**: Wed, 24 Jun 2026 07:47:51 GMT
-- **Git Commit**: `20f8170a400ecede0a9a99f05e5d9ef9d37d439e`
+- **Build Number**: #5
+- **Execution Date**: Wed, 24 Jun 2026 07:52:43 GMT
+- **Git Commit**: `c6e2db39fa34b2fdaa4d4947b33aeda76e828364`
 - **Branch**: `main`
 - **APK Version**: `1.0.0+1 (saferoute)`
 - **Device**: `Android Emulator (Pixel 6 API 33 Mocked)`
@@ -14,9 +14,9 @@
 | Metric | Count | Percentage |
 | :--- | :--- | :--- |
 | **Total Test Cases** | 510 | 100% |
-| **Passed** | 497 | 97.5% |
-| **Failed** | 9 | 1.8% |
-| **Skipped** | 4 | 0.8% |
+| **Passed** | 500 | 98.0% |
+| **Failed** | 7 | 1.4% |
+| **Skipped** | 3 | 0.6% |
 | **Blocked** | 0 | 0.0% |
 
 ---
@@ -29,29 +29,27 @@
 * ✓ **TC_AUTH_003** - Authentication Verification - Case 3
 * ✓ **TC_AUTH_004** - Authentication Verification - Case 4
 * ✓ **TC_AUTH_005** - Authentication Verification - Case 5
-*... and 492 more.*
+*... and 495 more.*
 
 ### FAILED TESTS
-* ✗ **TC_AUTH_006** - Authentication Verification - Case 6
-  - *Reason*: AssertionError: State mismatch on scenario index 5
-* ✗ **TC_AUTH_026** - Authentication Verification - Case 26
-  - *Reason*: AssertionError: State mismatch on scenario index 25
-* ✗ **TC_NAV_004** - Navigation Verification - Case 4
-  - *Reason*: AssertionError: State mismatch on scenario index 113
-* ✗ **TC_CRUD_028** - CRUD Operations Verification - Case 28
-  - *Reason*: AssertionError: State mismatch on scenario index 227
-* ✗ **TC_SRCH_008** - Search Verification - Case 8
-  - *Reason*: AssertionError: State mismatch on scenario index 247
-*... and 4 more.*
+* ✗ **TC_PROF_019** - Profile Management Verification - Case 19
+  - *Reason*: AssertionError: State mismatch on scenario index 108
+* ✗ **TC_FORM_016** - Forms Verification - Case 16
+  - *Reason*: AssertionError: State mismatch on scenario index 175
+* ✗ **TC_CRUD_003** - CRUD Operations Verification - Case 3
+  - *Reason*: AssertionError: State mismatch on scenario index 202
+* ✗ **TC_CRUD_019** - CRUD Operations Verification - Case 19
+  - *Reason*: AssertionError: State mismatch on scenario index 218
+* ✗ **TC_SRCH_009** - Search Verification - Case 9
+  - *Reason*: AssertionError: State mismatch on scenario index 248
+*... and 2 more.*
 
 ### SKIPPED TESTS (Sample)
-* - **TC_PROF_012**
+* - **TC_NAV_029**
   - *Reason*: FeatureDisabled
-* - **TC_FILT_019**
+* - **TC_FILT_010**
   - *Reason*: FeatureDisabled
-* - **TC_VAL_039**
-  - *Reason*: FeatureDisabled
-* - **TC_PERF_016**
+* - **TC_RESP_001**
   - *Reason*: FeatureDisabled
 
 

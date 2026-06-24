@@ -21,7 +21,7 @@
       "actualResult": "Successful validation of Authentication scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 142
+      "duration": 197
     },
     {
       "id": "TC_AUTH_002",
@@ -44,7 +44,7 @@
       "actualResult": "Successful validation of Authentication scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 199
+      "duration": 198
     },
     {
       "id": "TC_AUTH_003",
@@ -67,7 +67,7 @@
       "actualResult": "Successful validation of Authentication scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 132
+      "duration": 295
     },
     {
       "id": "TC_AUTH_004",
@@ -90,7 +90,7 @@
       "actualResult": "Successful validation of Authentication scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 141
+      "duration": 291
     },
     {
       "id": "TC_AUTH_005",
@@ -113,7 +113,7 @@
       "actualResult": "Successful validation of Authentication scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 225
+      "duration": 153
     },
     {
       "id": "TC_AUTH_006",
@@ -132,11 +132,11 @@
         "expectedState": "State_AUTH_Active"
       },
       "expectedResult": "Successful validation of Authentication scenario 6 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Authentication scenario 6 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 101
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 5",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_AUTH_006_failure.png",
+      "duration": 208
     },
     {
       "id": "TC_AUTH_007",
@@ -159,7 +159,7 @@
       "actualResult": "Successful validation of Authentication scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 104
+      "duration": 179
     },
     {
       "id": "TC_AUTH_008",
@@ -182,7 +182,7 @@
       "actualResult": "Successful validation of Authentication scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 166
     },
     {
       "id": "TC_AUTH_009",
@@ -205,7 +205,7 @@
       "actualResult": "Successful validation of Authentication scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 212
+      "duration": 217
     },
     {
       "id": "TC_AUTH_010",
@@ -228,7 +228,7 @@
       "actualResult": "Successful validation of Authentication scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 283
+      "duration": 137
     },
     {
       "id": "TC_AUTH_011",
@@ -247,11 +247,11 @@
         "expectedState": "State_AUTH_Active"
       },
       "expectedResult": "Successful validation of Authentication scenario 11 showing expected state.",
-      "status": "FAILED",
-      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
-      "failureReason": "AssertionError: State mismatch on scenario index 10",
-      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_AUTH_011_failure.png",
-      "duration": 238
+      "status": "PASSED",
+      "actualResult": "Successful validation of Authentication scenario 11 showing expected state.",
+      "failureReason": null,
+      "screenshotPath": null,
+      "duration": 299
     },
     {
       "id": "TC_AUTH_012",
@@ -274,7 +274,7 @@
       "actualResult": "Successful validation of Authentication scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 148
+      "duration": 192
     },
     {
       "id": "TC_AUTH_013",
@@ -297,7 +297,7 @@
       "actualResult": "Successful validation of Authentication scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 209
+      "duration": 123
     },
     {
       "id": "TC_AUTH_014",
@@ -320,7 +320,7 @@
       "actualResult": "Successful validation of Authentication scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 139
+      "duration": 154
     },
     {
       "id": "TC_AUTH_015",
@@ -343,7 +343,7 @@
       "actualResult": "Successful validation of Authentication scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 234
+      "duration": 224
     },
     {
       "id": "TC_AUTH_016",
@@ -366,7 +366,7 @@
       "actualResult": "Successful validation of Authentication scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 266
+      "duration": 165
     },
     {
       "id": "TC_AUTH_017",
@@ -389,7 +389,7 @@
       "actualResult": "Successful validation of Authentication scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 259
+      "duration": 199
     },
     {
       "id": "TC_AUTH_018",
@@ -412,7 +412,7 @@
       "actualResult": "Successful validation of Authentication scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 231
+      "duration": 174
     },
     {
       "id": "TC_AUTH_019",
@@ -435,7 +435,7 @@
       "actualResult": "Successful validation of Authentication scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 103
+      "duration": 245
     },
     {
       "id": "TC_AUTH_020",
@@ -458,7 +458,7 @@
       "actualResult": "Successful validation of Authentication scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 227
+      "duration": 276
     },
     {
       "id": "TC_AUTH_021",
@@ -481,7 +481,7 @@
       "actualResult": "Successful validation of Authentication scenario 21 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 153
+      "duration": 216
     },
     {
       "id": "TC_AUTH_022",
@@ -504,7 +504,7 @@
       "actualResult": "Successful validation of Authentication scenario 22 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 191
+      "duration": 185
     },
     {
       "id": "TC_AUTH_023",
@@ -527,7 +527,7 @@
       "actualResult": "Successful validation of Authentication scenario 23 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 105
+      "duration": 244
     },
     {
       "id": "TC_AUTH_024",
@@ -550,7 +550,7 @@
       "actualResult": "Successful validation of Authentication scenario 24 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 130
+      "duration": 233
     },
     {
       "id": "TC_AUTH_025",
@@ -573,7 +573,7 @@
       "actualResult": "Successful validation of Authentication scenario 25 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 110
+      "duration": 290
     },
     {
       "id": "TC_AUTH_026",
@@ -592,11 +592,11 @@
         "expectedState": "State_AUTH_Active"
       },
       "expectedResult": "Successful validation of Authentication scenario 26 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Authentication scenario 26 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 288
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 25",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_AUTH_026_failure.png",
+      "duration": 138
     },
     {
       "id": "TC_AUTH_027",
@@ -619,7 +619,7 @@
       "actualResult": "Successful validation of Authentication scenario 27 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 178
+      "duration": 198
     },
     {
       "id": "TC_AUTH_028",
@@ -642,7 +642,7 @@
       "actualResult": "Successful validation of Authentication scenario 28 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 233
+      "duration": 185
     },
     {
       "id": "TC_AUTH_029",
@@ -665,7 +665,7 @@
       "actualResult": "Successful validation of Authentication scenario 29 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 140
+      "duration": 131
     },
     {
       "id": "TC_AUTH_030",
@@ -688,7 +688,7 @@
       "actualResult": "Successful validation of Authentication scenario 30 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 281
+      "duration": 232
     },
     {
       "id": "TC_AUTH_031",
@@ -711,7 +711,7 @@
       "actualResult": "Successful validation of Authentication scenario 31 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 111
+      "duration": 187
     },
     {
       "id": "TC_AUTH_032",
@@ -734,7 +734,7 @@
       "actualResult": "Successful validation of Authentication scenario 32 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 139
+      "duration": 248
     },
     {
       "id": "TC_AUTH_033",
@@ -757,7 +757,7 @@
       "actualResult": "Successful validation of Authentication scenario 33 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 131
+      "duration": 151
     },
     {
       "id": "TC_AUTH_034",
@@ -780,7 +780,7 @@
       "actualResult": "Successful validation of Authentication scenario 34 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 242
+      "duration": 183
     },
     {
       "id": "TC_AUTH_035",
@@ -803,7 +803,7 @@
       "actualResult": "Successful validation of Authentication scenario 35 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 175
+      "duration": 227
     },
     {
       "id": "TC_AUTH_036",
@@ -826,7 +826,7 @@
       "actualResult": "Successful validation of Authentication scenario 36 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 111
+      "duration": 295
     },
     {
       "id": "TC_AUTH_037",
@@ -849,7 +849,7 @@
       "actualResult": "Successful validation of Authentication scenario 37 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 180
+      "duration": 279
     },
     {
       "id": "TC_AUTH_038",
@@ -872,7 +872,7 @@
       "actualResult": "Successful validation of Authentication scenario 38 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 130
+      "duration": 167
     },
     {
       "id": "TC_AUTH_039",
@@ -895,7 +895,7 @@
       "actualResult": "Successful validation of Authentication scenario 39 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 299
+      "duration": 158
     },
     {
       "id": "TC_AUTH_040",
@@ -918,7 +918,7 @@
       "actualResult": "Successful validation of Authentication scenario 40 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 209
+      "duration": 240
     },
     {
       "id": "TC_AZ_001",
@@ -941,7 +941,7 @@
       "actualResult": "Successful validation of Authorization scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 138
+      "duration": 265
     },
     {
       "id": "TC_AZ_002",
@@ -964,7 +964,7 @@
       "actualResult": "Successful validation of Authorization scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 168
+      "duration": 216
     },
     {
       "id": "TC_AZ_003",
@@ -987,7 +987,7 @@
       "actualResult": "Successful validation of Authorization scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 196
+      "duration": 169
     },
     {
       "id": "TC_AZ_004",
@@ -1010,7 +1010,7 @@
       "actualResult": "Successful validation of Authorization scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 216
+      "duration": 259
     },
     {
       "id": "TC_AZ_005",
@@ -1033,7 +1033,7 @@
       "actualResult": "Successful validation of Authorization scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 198
+      "duration": 172
     },
     {
       "id": "TC_AZ_006",
@@ -1056,7 +1056,7 @@
       "actualResult": "Successful validation of Authorization scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 135
+      "duration": 257
     },
     {
       "id": "TC_AZ_007",
@@ -1079,7 +1079,7 @@
       "actualResult": "Successful validation of Authorization scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 162
+      "duration": 203
     },
     {
       "id": "TC_AZ_008",
@@ -1102,7 +1102,7 @@
       "actualResult": "Successful validation of Authorization scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 249
+      "duration": 149
     },
     {
       "id": "TC_AZ_009",
@@ -1125,7 +1125,7 @@
       "actualResult": "Successful validation of Authorization scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 185
+      "duration": 118
     },
     {
       "id": "TC_AZ_010",
@@ -1148,7 +1148,7 @@
       "actualResult": "Successful validation of Authorization scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 273
+      "duration": 224
     },
     {
       "id": "TC_AZ_011",
@@ -1171,7 +1171,7 @@
       "actualResult": "Successful validation of Authorization scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 206
+      "duration": 279
     },
     {
       "id": "TC_AZ_012",
@@ -1194,7 +1194,7 @@
       "actualResult": "Successful validation of Authorization scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 192
+      "duration": 152
     },
     {
       "id": "TC_AZ_013",
@@ -1217,7 +1217,7 @@
       "actualResult": "Successful validation of Authorization scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 247
+      "duration": 297
     },
     {
       "id": "TC_AZ_014",
@@ -1240,7 +1240,7 @@
       "actualResult": "Successful validation of Authorization scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 159
+      "duration": 289
     },
     {
       "id": "TC_AZ_015",
@@ -1263,7 +1263,7 @@
       "actualResult": "Successful validation of Authorization scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 266
+      "duration": 194
     },
     {
       "id": "TC_AZ_016",
@@ -1286,7 +1286,7 @@
       "actualResult": "Successful validation of Authorization scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 261
+      "duration": 182
     },
     {
       "id": "TC_AZ_017",
@@ -1309,7 +1309,7 @@
       "actualResult": "Successful validation of Authorization scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 198
+      "duration": 264
     },
     {
       "id": "TC_AZ_018",
@@ -1332,7 +1332,7 @@
       "actualResult": "Successful validation of Authorization scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 262
+      "duration": 294
     },
     {
       "id": "TC_AZ_019",
@@ -1355,7 +1355,7 @@
       "actualResult": "Successful validation of Authorization scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 289
+      "duration": 118
     },
     {
       "id": "TC_AZ_020",
@@ -1378,7 +1378,7 @@
       "actualResult": "Successful validation of Authorization scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 123
+      "duration": 274
     },
     {
       "id": "TC_AZ_021",
@@ -1401,7 +1401,7 @@
       "actualResult": "Successful validation of Authorization scenario 21 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 165
+      "duration": 217
     },
     {
       "id": "TC_AZ_022",
@@ -1424,7 +1424,7 @@
       "actualResult": "Successful validation of Authorization scenario 22 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 297
+      "duration": 257
     },
     {
       "id": "TC_AZ_023",
@@ -1447,7 +1447,7 @@
       "actualResult": "Successful validation of Authorization scenario 23 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 105
+      "duration": 240
     },
     {
       "id": "TC_AZ_024",
@@ -1470,7 +1470,7 @@
       "actualResult": "Successful validation of Authorization scenario 24 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 159
+      "duration": 251
     },
     {
       "id": "TC_AZ_025",
@@ -1493,7 +1493,7 @@
       "actualResult": "Successful validation of Authorization scenario 25 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 289
+      "duration": 223
     },
     {
       "id": "TC_AZ_026",
@@ -1516,7 +1516,7 @@
       "actualResult": "Successful validation of Authorization scenario 26 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 295
+      "duration": 149
     },
     {
       "id": "TC_AZ_027",
@@ -1539,7 +1539,7 @@
       "actualResult": "Successful validation of Authorization scenario 27 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 291
+      "duration": 115
     },
     {
       "id": "TC_AZ_028",
@@ -1562,7 +1562,7 @@
       "actualResult": "Successful validation of Authorization scenario 28 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 130
+      "duration": 122
     },
     {
       "id": "TC_AZ_029",
@@ -1585,7 +1585,7 @@
       "actualResult": "Successful validation of Authorization scenario 29 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 189
+      "duration": 119
     },
     {
       "id": "TC_AZ_030",
@@ -1608,7 +1608,7 @@
       "actualResult": "Successful validation of Authorization scenario 30 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 274
+      "duration": 265
     },
     {
       "id": "TC_REG_001",
@@ -1631,7 +1631,7 @@
       "actualResult": "Successful validation of Registration scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 216
+      "duration": 182
     },
     {
       "id": "TC_REG_002",
@@ -1654,7 +1654,7 @@
       "actualResult": "Successful validation of Registration scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 120
+      "duration": 113
     },
     {
       "id": "TC_REG_003",
@@ -1677,7 +1677,7 @@
       "actualResult": "Successful validation of Registration scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 256
+      "duration": 161
     },
     {
       "id": "TC_REG_004",
@@ -1700,7 +1700,7 @@
       "actualResult": "Successful validation of Registration scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 252
+      "duration": 123
     },
     {
       "id": "TC_REG_005",
@@ -1723,7 +1723,7 @@
       "actualResult": "Successful validation of Registration scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 272
+      "duration": 274
     },
     {
       "id": "TC_REG_006",
@@ -1746,7 +1746,7 @@
       "actualResult": "Successful validation of Registration scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 179
+      "duration": 233
     },
     {
       "id": "TC_REG_007",
@@ -1769,7 +1769,7 @@
       "actualResult": "Successful validation of Registration scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 291
+      "duration": 168
     },
     {
       "id": "TC_REG_008",
@@ -1792,7 +1792,7 @@
       "actualResult": "Successful validation of Registration scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 161
+      "duration": 116
     },
     {
       "id": "TC_REG_009",
@@ -1815,7 +1815,7 @@
       "actualResult": "Successful validation of Registration scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 113
+      "duration": 184
     },
     {
       "id": "TC_REG_010",
@@ -1838,7 +1838,7 @@
       "actualResult": "Successful validation of Registration scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 281
+      "duration": 280
     },
     {
       "id": "TC_REG_011",
@@ -1861,7 +1861,7 @@
       "actualResult": "Successful validation of Registration scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 149
+      "duration": 280
     },
     {
       "id": "TC_REG_012",
@@ -1884,7 +1884,7 @@
       "actualResult": "Successful validation of Registration scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 270
+      "duration": 279
     },
     {
       "id": "TC_REG_013",
@@ -1907,7 +1907,7 @@
       "actualResult": "Successful validation of Registration scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 206
+      "duration": 109
     },
     {
       "id": "TC_REG_014",
@@ -1930,7 +1930,7 @@
       "actualResult": "Successful validation of Registration scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 113
+      "duration": 285
     },
     {
       "id": "TC_REG_015",
@@ -1953,7 +1953,7 @@
       "actualResult": "Successful validation of Registration scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 191
+      "duration": 281
     },
     {
       "id": "TC_REG_016",
@@ -1976,7 +1976,7 @@
       "actualResult": "Successful validation of Registration scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 156
+      "duration": 109
     },
     {
       "id": "TC_REG_017",
@@ -1999,7 +1999,7 @@
       "actualResult": "Successful validation of Registration scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 188
+      "duration": 244
     },
     {
       "id": "TC_REG_018",
@@ -2022,7 +2022,7 @@
       "actualResult": "Successful validation of Registration scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 145
+      "duration": 272
     },
     {
       "id": "TC_REG_019",
@@ -2045,7 +2045,7 @@
       "actualResult": "Successful validation of Registration scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 192
     },
     {
       "id": "TC_REG_020",
@@ -2068,7 +2068,7 @@
       "actualResult": "Successful validation of Registration scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 112
+      "duration": 205
     },
     {
       "id": "TC_PROF_001",
@@ -2091,7 +2091,7 @@
       "actualResult": "Successful validation of Profile Management scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 198
+      "duration": 260
     },
     {
       "id": "TC_PROF_002",
@@ -2114,7 +2114,7 @@
       "actualResult": "Successful validation of Profile Management scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 286
+      "duration": 178
     },
     {
       "id": "TC_PROF_003",
@@ -2137,7 +2137,7 @@
       "actualResult": "Successful validation of Profile Management scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 298
+      "duration": 264
     },
     {
       "id": "TC_PROF_004",
@@ -2160,7 +2160,7 @@
       "actualResult": "Successful validation of Profile Management scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 219
     },
     {
       "id": "TC_PROF_005",
@@ -2183,7 +2183,7 @@
       "actualResult": "Successful validation of Profile Management scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 179
+      "duration": 182
     },
     {
       "id": "TC_PROF_006",
@@ -2206,7 +2206,7 @@
       "actualResult": "Successful validation of Profile Management scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 216
+      "duration": 242
     },
     {
       "id": "TC_PROF_007",
@@ -2229,7 +2229,7 @@
       "actualResult": "Successful validation of Profile Management scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 224
+      "duration": 207
     },
     {
       "id": "TC_PROF_008",
@@ -2252,7 +2252,7 @@
       "actualResult": "Successful validation of Profile Management scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 158
+      "duration": 228
     },
     {
       "id": "TC_PROF_009",
@@ -2275,7 +2275,7 @@
       "actualResult": "Successful validation of Profile Management scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 266
+      "duration": 268
     },
     {
       "id": "TC_PROF_010",
@@ -2298,7 +2298,7 @@
       "actualResult": "Successful validation of Profile Management scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 246
+      "duration": 252
     },
     {
       "id": "TC_PROF_011",
@@ -2321,7 +2321,7 @@
       "actualResult": "Successful validation of Profile Management scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 169
+      "duration": 233
     },
     {
       "id": "TC_PROF_012",
@@ -2340,11 +2340,11 @@
         "expectedState": "State_PROF_Active"
       },
       "expectedResult": "Successful validation of Profile Management scenario 12 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Profile Management scenario 12 showing expected state.",
-      "failureReason": null,
+      "status": "SKIPPED",
+      "actualResult": "Test skipped due to feature flag disabled.",
+      "failureReason": "FeatureDisabled",
       "screenshotPath": null,
-      "duration": 186
+      "duration": 0
     },
     {
       "id": "TC_PROF_013",
@@ -2367,7 +2367,7 @@
       "actualResult": "Successful validation of Profile Management scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 275
     },
     {
       "id": "TC_PROF_014",
@@ -2390,7 +2390,7 @@
       "actualResult": "Successful validation of Profile Management scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 222
+      "duration": 213
     },
     {
       "id": "TC_PROF_015",
@@ -2413,7 +2413,7 @@
       "actualResult": "Successful validation of Profile Management scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 142
     },
     {
       "id": "TC_PROF_016",
@@ -2436,7 +2436,7 @@
       "actualResult": "Successful validation of Profile Management scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 114
+      "duration": 151
     },
     {
       "id": "TC_PROF_017",
@@ -2459,7 +2459,7 @@
       "actualResult": "Successful validation of Profile Management scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 294
+      "duration": 116
     },
     {
       "id": "TC_PROF_018",
@@ -2482,7 +2482,7 @@
       "actualResult": "Successful validation of Profile Management scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 264
     },
     {
       "id": "TC_PROF_019",
@@ -2505,7 +2505,7 @@
       "actualResult": "Successful validation of Profile Management scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 273
+      "duration": 226
     },
     {
       "id": "TC_PROF_020",
@@ -2528,7 +2528,7 @@
       "actualResult": "Successful validation of Profile Management scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 105
+      "duration": 293
     },
     {
       "id": "TC_NAV_001",
@@ -2551,7 +2551,7 @@
       "actualResult": "Successful validation of Navigation scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 122
     },
     {
       "id": "TC_NAV_002",
@@ -2574,7 +2574,7 @@
       "actualResult": "Successful validation of Navigation scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 274
+      "duration": 108
     },
     {
       "id": "TC_NAV_003",
@@ -2597,7 +2597,7 @@
       "actualResult": "Successful validation of Navigation scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 136
+      "duration": 163
     },
     {
       "id": "TC_NAV_004",
@@ -2616,11 +2616,11 @@
         "expectedState": "State_NAV_Active"
       },
       "expectedResult": "Successful validation of Navigation scenario 4 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Navigation scenario 4 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 257
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 113",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_NAV_004_failure.png",
+      "duration": 105
     },
     {
       "id": "TC_NAV_005",
@@ -2643,7 +2643,7 @@
       "actualResult": "Successful validation of Navigation scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 116
+      "duration": 160
     },
     {
       "id": "TC_NAV_006",
@@ -2666,7 +2666,7 @@
       "actualResult": "Successful validation of Navigation scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 214
+      "duration": 119
     },
     {
       "id": "TC_NAV_007",
@@ -2689,7 +2689,7 @@
       "actualResult": "Successful validation of Navigation scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 286
+      "duration": 281
     },
     {
       "id": "TC_NAV_008",
@@ -2712,7 +2712,7 @@
       "actualResult": "Successful validation of Navigation scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 229
+      "duration": 162
     },
     {
       "id": "TC_NAV_009",
@@ -2735,7 +2735,7 @@
       "actualResult": "Successful validation of Navigation scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 110
+      "duration": 120
     },
     {
       "id": "TC_NAV_010",
@@ -2758,7 +2758,7 @@
       "actualResult": "Successful validation of Navigation scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 228
+      "duration": 106
     },
     {
       "id": "TC_NAV_011",
@@ -2781,7 +2781,7 @@
       "actualResult": "Successful validation of Navigation scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 241
+      "duration": 169
     },
     {
       "id": "TC_NAV_012",
@@ -2804,7 +2804,7 @@
       "actualResult": "Successful validation of Navigation scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 144
+      "duration": 256
     },
     {
       "id": "TC_NAV_013",
@@ -2827,7 +2827,7 @@
       "actualResult": "Successful validation of Navigation scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 249
+      "duration": 173
     },
     {
       "id": "TC_NAV_014",
@@ -2850,7 +2850,7 @@
       "actualResult": "Successful validation of Navigation scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 197
     },
     {
       "id": "TC_NAV_015",
@@ -2873,7 +2873,7 @@
       "actualResult": "Successful validation of Navigation scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 132
     },
     {
       "id": "TC_NAV_016",
@@ -2896,7 +2896,7 @@
       "actualResult": "Successful validation of Navigation scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 269
+      "duration": 126
     },
     {
       "id": "TC_NAV_017",
@@ -2919,7 +2919,7 @@
       "actualResult": "Successful validation of Navigation scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 121
+      "duration": 156
     },
     {
       "id": "TC_NAV_018",
@@ -2942,7 +2942,7 @@
       "actualResult": "Successful validation of Navigation scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 257
+      "duration": 298
     },
     {
       "id": "TC_NAV_019",
@@ -2965,7 +2965,7 @@
       "actualResult": "Successful validation of Navigation scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 291
+      "duration": 194
     },
     {
       "id": "TC_NAV_020",
@@ -2988,7 +2988,7 @@
       "actualResult": "Successful validation of Navigation scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 139
+      "duration": 218
     },
     {
       "id": "TC_NAV_021",
@@ -3011,7 +3011,7 @@
       "actualResult": "Successful validation of Navigation scenario 21 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 114
+      "duration": 244
     },
     {
       "id": "TC_NAV_022",
@@ -3034,7 +3034,7 @@
       "actualResult": "Successful validation of Navigation scenario 22 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 285
+      "duration": 184
     },
     {
       "id": "TC_NAV_023",
@@ -3057,7 +3057,7 @@
       "actualResult": "Successful validation of Navigation scenario 23 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 224
+      "duration": 218
     },
     {
       "id": "TC_NAV_024",
@@ -3080,7 +3080,7 @@
       "actualResult": "Successful validation of Navigation scenario 24 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 183
+      "duration": 100
     },
     {
       "id": "TC_NAV_025",
@@ -3103,7 +3103,7 @@
       "actualResult": "Successful validation of Navigation scenario 25 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 203
+      "duration": 244
     },
     {
       "id": "TC_NAV_026",
@@ -3126,7 +3126,7 @@
       "actualResult": "Successful validation of Navigation scenario 26 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 219
+      "duration": 132
     },
     {
       "id": "TC_NAV_027",
@@ -3149,7 +3149,7 @@
       "actualResult": "Successful validation of Navigation scenario 27 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 209
     },
     {
       "id": "TC_NAV_028",
@@ -3172,7 +3172,7 @@
       "actualResult": "Successful validation of Navigation scenario 28 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 203
+      "duration": 239
     },
     {
       "id": "TC_NAV_029",
@@ -3195,7 +3195,7 @@
       "actualResult": "Successful validation of Navigation scenario 29 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 152
+      "duration": 252
     },
     {
       "id": "TC_NAV_030",
@@ -3218,7 +3218,7 @@
       "actualResult": "Successful validation of Navigation scenario 30 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 246
+      "duration": 247
     },
     {
       "id": "TC_DASH_001",
@@ -3241,7 +3241,7 @@
       "actualResult": "Successful validation of Dashboard scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 235
+      "duration": 130
     },
     {
       "id": "TC_DASH_002",
@@ -3264,7 +3264,7 @@
       "actualResult": "Successful validation of Dashboard scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 266
+      "duration": 299
     },
     {
       "id": "TC_DASH_003",
@@ -3283,11 +3283,11 @@
         "expectedState": "State_DASH_Active"
       },
       "expectedResult": "Successful validation of Dashboard scenario 3 showing expected state.",
-      "status": "SKIPPED",
-      "actualResult": "Test skipped due to feature flag disabled.",
-      "failureReason": "FeatureDisabled",
+      "status": "PASSED",
+      "actualResult": "Successful validation of Dashboard scenario 3 showing expected state.",
+      "failureReason": null,
       "screenshotPath": null,
-      "duration": 0
+      "duration": 222
     },
     {
       "id": "TC_DASH_004",
@@ -3310,7 +3310,7 @@
       "actualResult": "Successful validation of Dashboard scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 118
+      "duration": 207
     },
     {
       "id": "TC_DASH_005",
@@ -3333,7 +3333,7 @@
       "actualResult": "Successful validation of Dashboard scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 193
+      "duration": 206
     },
     {
       "id": "TC_DASH_006",
@@ -3356,7 +3356,7 @@
       "actualResult": "Successful validation of Dashboard scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 224
+      "duration": 234
     },
     {
       "id": "TC_DASH_007",
@@ -3379,7 +3379,7 @@
       "actualResult": "Successful validation of Dashboard scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 175
+      "duration": 267
     },
     {
       "id": "TC_DASH_008",
@@ -3402,7 +3402,7 @@
       "actualResult": "Successful validation of Dashboard scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 140
+      "duration": 115
     },
     {
       "id": "TC_DASH_009",
@@ -3425,7 +3425,7 @@
       "actualResult": "Successful validation of Dashboard scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 187
+      "duration": 100
     },
     {
       "id": "TC_DASH_010",
@@ -3448,7 +3448,7 @@
       "actualResult": "Successful validation of Dashboard scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 117
+      "duration": 253
     },
     {
       "id": "TC_DASH_011",
@@ -3471,7 +3471,7 @@
       "actualResult": "Successful validation of Dashboard scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 282
+      "duration": 166
     },
     {
       "id": "TC_DASH_012",
@@ -3494,7 +3494,7 @@
       "actualResult": "Successful validation of Dashboard scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 195
     },
     {
       "id": "TC_DASH_013",
@@ -3517,7 +3517,7 @@
       "actualResult": "Successful validation of Dashboard scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 273
+      "duration": 254
     },
     {
       "id": "TC_DASH_014",
@@ -3540,7 +3540,7 @@
       "actualResult": "Successful validation of Dashboard scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 203
+      "duration": 230
     },
     {
       "id": "TC_DASH_015",
@@ -3563,7 +3563,7 @@
       "actualResult": "Successful validation of Dashboard scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 111
+      "duration": 184
     },
     {
       "id": "TC_DASH_016",
@@ -3586,7 +3586,7 @@
       "actualResult": "Successful validation of Dashboard scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 219
+      "duration": 157
     },
     {
       "id": "TC_DASH_017",
@@ -3609,7 +3609,7 @@
       "actualResult": "Successful validation of Dashboard scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 218
+      "duration": 126
     },
     {
       "id": "TC_DASH_018",
@@ -3632,7 +3632,7 @@
       "actualResult": "Successful validation of Dashboard scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 167
+      "duration": 154
     },
     {
       "id": "TC_DASH_019",
@@ -3655,7 +3655,7 @@
       "actualResult": "Successful validation of Dashboard scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 166
+      "duration": 178
     },
     {
       "id": "TC_DASH_020",
@@ -3678,7 +3678,7 @@
       "actualResult": "Successful validation of Dashboard scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 191
+      "duration": 295
     },
     {
       "id": "TC_FORM_001",
@@ -3701,7 +3701,7 @@
       "actualResult": "Successful validation of Forms scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 225
+      "duration": 195
     },
     {
       "id": "TC_FORM_002",
@@ -3724,7 +3724,7 @@
       "actualResult": "Successful validation of Forms scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 121
+      "duration": 102
     },
     {
       "id": "TC_FORM_003",
@@ -3747,7 +3747,7 @@
       "actualResult": "Successful validation of Forms scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 134
+      "duration": 160
     },
     {
       "id": "TC_FORM_004",
@@ -3770,7 +3770,7 @@
       "actualResult": "Successful validation of Forms scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 193
+      "duration": 148
     },
     {
       "id": "TC_FORM_005",
@@ -3793,7 +3793,7 @@
       "actualResult": "Successful validation of Forms scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 297
+      "duration": 294
     },
     {
       "id": "TC_FORM_006",
@@ -3816,7 +3816,7 @@
       "actualResult": "Successful validation of Forms scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 289
+      "duration": 132
     },
     {
       "id": "TC_FORM_007",
@@ -3862,7 +3862,7 @@
       "actualResult": "Successful validation of Forms scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 164
+      "duration": 180
     },
     {
       "id": "TC_FORM_009",
@@ -3885,7 +3885,7 @@
       "actualResult": "Successful validation of Forms scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 138
+      "duration": 268
     },
     {
       "id": "TC_FORM_010",
@@ -3908,7 +3908,7 @@
       "actualResult": "Successful validation of Forms scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 140
+      "duration": 129
     },
     {
       "id": "TC_FORM_011",
@@ -3931,7 +3931,7 @@
       "actualResult": "Successful validation of Forms scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 153
+      "duration": 143
     },
     {
       "id": "TC_FORM_012",
@@ -3954,7 +3954,7 @@
       "actualResult": "Successful validation of Forms scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 249
+      "duration": 209
     },
     {
       "id": "TC_FORM_013",
@@ -3977,7 +3977,7 @@
       "actualResult": "Successful validation of Forms scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 231
+      "duration": 218
     },
     {
       "id": "TC_FORM_014",
@@ -4000,7 +4000,7 @@
       "actualResult": "Successful validation of Forms scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 271
+      "duration": 189
     },
     {
       "id": "TC_FORM_015",
@@ -4023,7 +4023,7 @@
       "actualResult": "Successful validation of Forms scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 265
+      "duration": 149
     },
     {
       "id": "TC_FORM_016",
@@ -4046,7 +4046,7 @@
       "actualResult": "Successful validation of Forms scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 116
+      "duration": 171
     },
     {
       "id": "TC_FORM_017",
@@ -4069,7 +4069,7 @@
       "actualResult": "Successful validation of Forms scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 249
+      "duration": 119
     },
     {
       "id": "TC_FORM_018",
@@ -4092,7 +4092,7 @@
       "actualResult": "Successful validation of Forms scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 145
+      "duration": 216
     },
     {
       "id": "TC_FORM_019",
@@ -4115,7 +4115,7 @@
       "actualResult": "Successful validation of Forms scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 131
+      "duration": 232
     },
     {
       "id": "TC_FORM_020",
@@ -4138,7 +4138,7 @@
       "actualResult": "Successful validation of Forms scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 110
+      "duration": 139
     },
     {
       "id": "TC_FORM_021",
@@ -4161,7 +4161,7 @@
       "actualResult": "Successful validation of Forms scenario 21 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 271
+      "duration": 175
     },
     {
       "id": "TC_FORM_022",
@@ -4184,7 +4184,7 @@
       "actualResult": "Successful validation of Forms scenario 22 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 242
+      "duration": 202
     },
     {
       "id": "TC_FORM_023",
@@ -4207,7 +4207,7 @@
       "actualResult": "Successful validation of Forms scenario 23 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 280
+      "duration": 166
     },
     {
       "id": "TC_FORM_024",
@@ -4230,7 +4230,7 @@
       "actualResult": "Successful validation of Forms scenario 24 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 196
+      "duration": 188
     },
     {
       "id": "TC_FORM_025",
@@ -4253,7 +4253,7 @@
       "actualResult": "Successful validation of Forms scenario 25 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 234
+      "duration": 189
     },
     {
       "id": "TC_FORM_026",
@@ -4272,11 +4272,11 @@
         "expectedState": "State_FORM_Active"
       },
       "expectedResult": "Successful validation of Forms scenario 26 showing expected state.",
-      "status": "SKIPPED",
-      "actualResult": "Test skipped due to feature flag disabled.",
-      "failureReason": "FeatureDisabled",
+      "status": "PASSED",
+      "actualResult": "Successful validation of Forms scenario 26 showing expected state.",
+      "failureReason": null,
       "screenshotPath": null,
-      "duration": 0
+      "duration": 165
     },
     {
       "id": "TC_FORM_027",
@@ -4299,7 +4299,7 @@
       "actualResult": "Successful validation of Forms scenario 27 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 164
+      "duration": 122
     },
     {
       "id": "TC_FORM_028",
@@ -4322,7 +4322,7 @@
       "actualResult": "Successful validation of Forms scenario 28 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 141
+      "duration": 106
     },
     {
       "id": "TC_FORM_029",
@@ -4345,7 +4345,7 @@
       "actualResult": "Successful validation of Forms scenario 29 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 167
+      "duration": 288
     },
     {
       "id": "TC_FORM_030",
@@ -4368,7 +4368,7 @@
       "actualResult": "Successful validation of Forms scenario 30 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 108
+      "duration": 226
     },
     {
       "id": "TC_FORM_031",
@@ -4391,7 +4391,7 @@
       "actualResult": "Successful validation of Forms scenario 31 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 293
+      "duration": 146
     },
     {
       "id": "TC_FORM_032",
@@ -4414,7 +4414,7 @@
       "actualResult": "Successful validation of Forms scenario 32 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 168
+      "duration": 230
     },
     {
       "id": "TC_FORM_033",
@@ -4437,7 +4437,7 @@
       "actualResult": "Successful validation of Forms scenario 33 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 177
+      "duration": 159
     },
     {
       "id": "TC_FORM_034",
@@ -4460,7 +4460,7 @@
       "actualResult": "Successful validation of Forms scenario 34 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 217
+      "duration": 111
     },
     {
       "id": "TC_FORM_035",
@@ -4483,7 +4483,7 @@
       "actualResult": "Successful validation of Forms scenario 35 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 159
+      "duration": 258
     },
     {
       "id": "TC_FORM_036",
@@ -4506,7 +4506,7 @@
       "actualResult": "Successful validation of Forms scenario 36 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 186
+      "duration": 222
     },
     {
       "id": "TC_FORM_037",
@@ -4529,7 +4529,7 @@
       "actualResult": "Successful validation of Forms scenario 37 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 155
+      "duration": 281
     },
     {
       "id": "TC_FORM_038",
@@ -4552,7 +4552,7 @@
       "actualResult": "Successful validation of Forms scenario 38 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 182
+      "duration": 195
     },
     {
       "id": "TC_FORM_039",
@@ -4575,7 +4575,7 @@
       "actualResult": "Successful validation of Forms scenario 39 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 192
+      "duration": 226
     },
     {
       "id": "TC_FORM_040",
@@ -4598,7 +4598,7 @@
       "actualResult": "Successful validation of Forms scenario 40 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 138
+      "duration": 272
     },
     {
       "id": "TC_CRUD_001",
@@ -4621,7 +4621,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 157
     },
     {
       "id": "TC_CRUD_002",
@@ -4644,7 +4644,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 287
     },
     {
       "id": "TC_CRUD_003",
@@ -4667,7 +4667,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 147
+      "duration": 266
     },
     {
       "id": "TC_CRUD_004",
@@ -4690,7 +4690,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 287
+      "duration": 210
     },
     {
       "id": "TC_CRUD_005",
@@ -4713,7 +4713,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 174
+      "duration": 211
     },
     {
       "id": "TC_CRUD_006",
@@ -4736,7 +4736,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 117
+      "duration": 152
     },
     {
       "id": "TC_CRUD_007",
@@ -4759,7 +4759,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 191
+      "duration": 257
     },
     {
       "id": "TC_CRUD_008",
@@ -4782,7 +4782,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 178
+      "duration": 111
     },
     {
       "id": "TC_CRUD_009",
@@ -4805,7 +4805,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 214
+      "duration": 223
     },
     {
       "id": "TC_CRUD_010",
@@ -4828,7 +4828,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 204
+      "duration": 199
     },
     {
       "id": "TC_CRUD_011",
@@ -4851,7 +4851,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 134
     },
     {
       "id": "TC_CRUD_012",
@@ -4874,7 +4874,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 188
+      "duration": 254
     },
     {
       "id": "TC_CRUD_013",
@@ -4897,7 +4897,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 144
+      "duration": 157
     },
     {
       "id": "TC_CRUD_014",
@@ -4920,7 +4920,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 285
+      "duration": 274
     },
     {
       "id": "TC_CRUD_015",
@@ -4943,7 +4943,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 282
+      "duration": 109
     },
     {
       "id": "TC_CRUD_016",
@@ -4966,7 +4966,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 284
+      "duration": 158
     },
     {
       "id": "TC_CRUD_017",
@@ -4989,7 +4989,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 112
+      "duration": 234
     },
     {
       "id": "TC_CRUD_018",
@@ -5012,7 +5012,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 176
     },
     {
       "id": "TC_CRUD_019",
@@ -5035,7 +5035,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 237
+      "duration": 125
     },
     {
       "id": "TC_CRUD_020",
@@ -5058,7 +5058,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 290
+      "duration": 249
     },
     {
       "id": "TC_CRUD_021",
@@ -5081,7 +5081,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 21 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 294
+      "duration": 190
     },
     {
       "id": "TC_CRUD_022",
@@ -5104,7 +5104,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 22 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 241
+      "duration": 183
     },
     {
       "id": "TC_CRUD_023",
@@ -5127,7 +5127,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 23 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 295
+      "duration": 128
     },
     {
       "id": "TC_CRUD_024",
@@ -5150,7 +5150,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 24 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 225
+      "duration": 242
     },
     {
       "id": "TC_CRUD_025",
@@ -5173,7 +5173,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 25 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 200
+      "duration": 110
     },
     {
       "id": "TC_CRUD_026",
@@ -5196,7 +5196,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 26 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 198
+      "duration": 182
     },
     {
       "id": "TC_CRUD_027",
@@ -5219,7 +5219,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 27 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 133
+      "duration": 262
     },
     {
       "id": "TC_CRUD_028",
@@ -5238,11 +5238,11 @@
         "expectedState": "State_CRUD_Active"
       },
       "expectedResult": "Successful validation of CRUD Operations scenario 28 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of CRUD Operations scenario 28 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 194
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 227",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_CRUD_028_failure.png",
+      "duration": 256
     },
     {
       "id": "TC_CRUD_029",
@@ -5265,7 +5265,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 29 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 112
+      "duration": 264
     },
     {
       "id": "TC_CRUD_030",
@@ -5288,7 +5288,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 30 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 141
+      "duration": 189
     },
     {
       "id": "TC_CRUD_031",
@@ -5311,7 +5311,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 31 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 154
+      "duration": 185
     },
     {
       "id": "TC_CRUD_032",
@@ -5334,7 +5334,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 32 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 179
+      "duration": 172
     },
     {
       "id": "TC_CRUD_033",
@@ -5357,7 +5357,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 33 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 234
+      "duration": 113
     },
     {
       "id": "TC_CRUD_034",
@@ -5380,7 +5380,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 34 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 275
+      "duration": 243
     },
     {
       "id": "TC_CRUD_035",
@@ -5403,7 +5403,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 35 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 178
+      "duration": 115
     },
     {
       "id": "TC_CRUD_036",
@@ -5426,7 +5426,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 36 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 136
+      "duration": 120
     },
     {
       "id": "TC_CRUD_037",
@@ -5449,7 +5449,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 37 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 135
+      "duration": 164
     },
     {
       "id": "TC_CRUD_038",
@@ -5472,7 +5472,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 38 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 109
+      "duration": 286
     },
     {
       "id": "TC_CRUD_039",
@@ -5495,7 +5495,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 39 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 296
+      "duration": 283
     },
     {
       "id": "TC_CRUD_040",
@@ -5518,7 +5518,7 @@
       "actualResult": "Successful validation of CRUD Operations scenario 40 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 122
     },
     {
       "id": "TC_SRCH_001",
@@ -5541,7 +5541,7 @@
       "actualResult": "Successful validation of Search scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 213
+      "duration": 139
     },
     {
       "id": "TC_SRCH_002",
@@ -5564,7 +5564,7 @@
       "actualResult": "Successful validation of Search scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 209
+      "duration": 180
     },
     {
       "id": "TC_SRCH_003",
@@ -5587,7 +5587,7 @@
       "actualResult": "Successful validation of Search scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 159
+      "duration": 123
     },
     {
       "id": "TC_SRCH_004",
@@ -5610,7 +5610,7 @@
       "actualResult": "Successful validation of Search scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 131
     },
     {
       "id": "TC_SRCH_005",
@@ -5633,7 +5633,7 @@
       "actualResult": "Successful validation of Search scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 119
+      "duration": 287
     },
     {
       "id": "TC_SRCH_006",
@@ -5656,7 +5656,7 @@
       "actualResult": "Successful validation of Search scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 266
+      "duration": 253
     },
     {
       "id": "TC_SRCH_007",
@@ -5679,7 +5679,7 @@
       "actualResult": "Successful validation of Search scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 288
+      "duration": 108
     },
     {
       "id": "TC_SRCH_008",
@@ -5698,11 +5698,11 @@
         "expectedState": "State_SRCH_Active"
       },
       "expectedResult": "Successful validation of Search scenario 8 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Search scenario 8 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 174
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 247",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_SRCH_008_failure.png",
+      "duration": 217
     },
     {
       "id": "TC_SRCH_009",
@@ -5725,7 +5725,7 @@
       "actualResult": "Successful validation of Search scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 142
+      "duration": 109
     },
     {
       "id": "TC_SRCH_010",
@@ -5748,7 +5748,7 @@
       "actualResult": "Successful validation of Search scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 195
     },
     {
       "id": "TC_SRCH_011",
@@ -5771,7 +5771,7 @@
       "actualResult": "Successful validation of Search scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 160
     },
     {
       "id": "TC_SRCH_012",
@@ -5794,7 +5794,7 @@
       "actualResult": "Successful validation of Search scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 277
+      "duration": 172
     },
     {
       "id": "TC_SRCH_013",
@@ -5817,7 +5817,7 @@
       "actualResult": "Successful validation of Search scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 189
+      "duration": 249
     },
     {
       "id": "TC_SRCH_014",
@@ -5840,7 +5840,7 @@
       "actualResult": "Successful validation of Search scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 149
+      "duration": 201
     },
     {
       "id": "TC_SRCH_015",
@@ -5863,7 +5863,7 @@
       "actualResult": "Successful validation of Search scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 220
+      "duration": 193
     },
     {
       "id": "TC_SRCH_016",
@@ -5886,7 +5886,7 @@
       "actualResult": "Successful validation of Search scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 210
+      "duration": 117
     },
     {
       "id": "TC_SRCH_017",
@@ -5909,7 +5909,7 @@
       "actualResult": "Successful validation of Search scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 212
+      "duration": 125
     },
     {
       "id": "TC_SRCH_018",
@@ -5932,7 +5932,7 @@
       "actualResult": "Successful validation of Search scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 284
+      "duration": 263
     },
     {
       "id": "TC_SRCH_019",
@@ -5955,7 +5955,7 @@
       "actualResult": "Successful validation of Search scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 174
+      "duration": 294
     },
     {
       "id": "TC_SRCH_020",
@@ -5978,7 +5978,7 @@
       "actualResult": "Successful validation of Search scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 292
+      "duration": 116
     },
     {
       "id": "TC_FILT_001",
@@ -6001,7 +6001,7 @@
       "actualResult": "Successful validation of Filters scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 117
+      "duration": 234
     },
     {
       "id": "TC_FILT_002",
@@ -6024,7 +6024,7 @@
       "actualResult": "Successful validation of Filters scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 241
+      "duration": 296
     },
     {
       "id": "TC_FILT_003",
@@ -6047,7 +6047,7 @@
       "actualResult": "Successful validation of Filters scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 263
+      "duration": 258
     },
     {
       "id": "TC_FILT_004",
@@ -6070,7 +6070,7 @@
       "actualResult": "Successful validation of Filters scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 299
+      "duration": 202
     },
     {
       "id": "TC_FILT_005",
@@ -6093,7 +6093,7 @@
       "actualResult": "Successful validation of Filters scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 196
+      "duration": 148
     },
     {
       "id": "TC_FILT_006",
@@ -6116,7 +6116,7 @@
       "actualResult": "Successful validation of Filters scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 120
+      "duration": 274
     },
     {
       "id": "TC_FILT_007",
@@ -6139,7 +6139,7 @@
       "actualResult": "Successful validation of Filters scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 244
     },
     {
       "id": "TC_FILT_008",
@@ -6162,7 +6162,7 @@
       "actualResult": "Successful validation of Filters scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 119
+      "duration": 106
     },
     {
       "id": "TC_FILT_009",
@@ -6185,7 +6185,7 @@
       "actualResult": "Successful validation of Filters scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 269
+      "duration": 165
     },
     {
       "id": "TC_FILT_010",
@@ -6208,7 +6208,7 @@
       "actualResult": "Successful validation of Filters scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 206
+      "duration": 257
     },
     {
       "id": "TC_FILT_011",
@@ -6231,7 +6231,7 @@
       "actualResult": "Successful validation of Filters scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 180
+      "duration": 205
     },
     {
       "id": "TC_FILT_012",
@@ -6254,7 +6254,7 @@
       "actualResult": "Successful validation of Filters scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 173
+      "duration": 105
     },
     {
       "id": "TC_FILT_013",
@@ -6277,7 +6277,7 @@
       "actualResult": "Successful validation of Filters scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 181
+      "duration": 157
     },
     {
       "id": "TC_FILT_014",
@@ -6300,7 +6300,7 @@
       "actualResult": "Successful validation of Filters scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 135
+      "duration": 156
     },
     {
       "id": "TC_FILT_015",
@@ -6323,7 +6323,7 @@
       "actualResult": "Successful validation of Filters scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 266
+      "duration": 115
     },
     {
       "id": "TC_FILT_016",
@@ -6346,7 +6346,7 @@
       "actualResult": "Successful validation of Filters scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 187
+      "duration": 150
     },
     {
       "id": "TC_FILT_017",
@@ -6369,7 +6369,7 @@
       "actualResult": "Successful validation of Filters scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 229
+      "duration": 158
     },
     {
       "id": "TC_FILT_018",
@@ -6392,7 +6392,7 @@
       "actualResult": "Successful validation of Filters scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 208
+      "duration": 168
     },
     {
       "id": "TC_FILT_019",
@@ -6411,11 +6411,11 @@
         "expectedState": "State_FILT_Active"
       },
       "expectedResult": "Successful validation of Filters scenario 19 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Filters scenario 19 showing expected state.",
-      "failureReason": null,
+      "status": "SKIPPED",
+      "actualResult": "Test skipped due to feature flag disabled.",
+      "failureReason": "FeatureDisabled",
       "screenshotPath": null,
-      "duration": 161
+      "duration": 0
     },
     {
       "id": "TC_FILT_020",
@@ -6438,7 +6438,7 @@
       "actualResult": "Successful validation of Filters scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 174
+      "duration": 191
     },
     {
       "id": "TC_VAL_001",
@@ -6461,7 +6461,7 @@
       "actualResult": "Successful validation of Input Validation scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 156
+      "duration": 169
     },
     {
       "id": "TC_VAL_002",
@@ -6484,7 +6484,7 @@
       "actualResult": "Successful validation of Input Validation scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 273
     },
     {
       "id": "TC_VAL_003",
@@ -6507,7 +6507,7 @@
       "actualResult": "Successful validation of Input Validation scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 190
+      "duration": 149
     },
     {
       "id": "TC_VAL_004",
@@ -6530,7 +6530,7 @@
       "actualResult": "Successful validation of Input Validation scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 255
+      "duration": 147
     },
     {
       "id": "TC_VAL_005",
@@ -6553,7 +6553,7 @@
       "actualResult": "Successful validation of Input Validation scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 230
+      "duration": 156
     },
     {
       "id": "TC_VAL_006",
@@ -6576,7 +6576,7 @@
       "actualResult": "Successful validation of Input Validation scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 159
+      "duration": 232
     },
     {
       "id": "TC_VAL_007",
@@ -6599,7 +6599,7 @@
       "actualResult": "Successful validation of Input Validation scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 294
+      "duration": 202
     },
     {
       "id": "TC_VAL_008",
@@ -6622,7 +6622,7 @@
       "actualResult": "Successful validation of Input Validation scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 122
+      "duration": 270
     },
     {
       "id": "TC_VAL_009",
@@ -6645,7 +6645,7 @@
       "actualResult": "Successful validation of Input Validation scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 216
+      "duration": 186
     },
     {
       "id": "TC_VAL_010",
@@ -6668,7 +6668,7 @@
       "actualResult": "Successful validation of Input Validation scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 229
+      "duration": 166
     },
     {
       "id": "TC_VAL_011",
@@ -6691,7 +6691,7 @@
       "actualResult": "Successful validation of Input Validation scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 109
+      "duration": 218
     },
     {
       "id": "TC_VAL_012",
@@ -6714,7 +6714,7 @@
       "actualResult": "Successful validation of Input Validation scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 247
+      "duration": 235
     },
     {
       "id": "TC_VAL_013",
@@ -6737,7 +6737,7 @@
       "actualResult": "Successful validation of Input Validation scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 254
+      "duration": 284
     },
     {
       "id": "TC_VAL_014",
@@ -6760,7 +6760,7 @@
       "actualResult": "Successful validation of Input Validation scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 146
+      "duration": 167
     },
     {
       "id": "TC_VAL_015",
@@ -6783,7 +6783,7 @@
       "actualResult": "Successful validation of Input Validation scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 178
     },
     {
       "id": "TC_VAL_016",
@@ -6806,7 +6806,7 @@
       "actualResult": "Successful validation of Input Validation scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 116
+      "duration": 230
     },
     {
       "id": "TC_VAL_017",
@@ -6829,7 +6829,7 @@
       "actualResult": "Successful validation of Input Validation scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 232
+      "duration": 153
     },
     {
       "id": "TC_VAL_018",
@@ -6852,7 +6852,7 @@
       "actualResult": "Successful validation of Input Validation scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 141
+      "duration": 211
     },
     {
       "id": "TC_VAL_019",
@@ -6875,7 +6875,7 @@
       "actualResult": "Successful validation of Input Validation scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 239
+      "duration": 153
     },
     {
       "id": "TC_VAL_020",
@@ -6898,7 +6898,7 @@
       "actualResult": "Successful validation of Input Validation scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 231
+      "duration": 226
     },
     {
       "id": "TC_VAL_021",
@@ -6921,7 +6921,7 @@
       "actualResult": "Successful validation of Input Validation scenario 21 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 179
+      "duration": 262
     },
     {
       "id": "TC_VAL_022",
@@ -6944,7 +6944,7 @@
       "actualResult": "Successful validation of Input Validation scenario 22 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 164
+      "duration": 207
     },
     {
       "id": "TC_VAL_023",
@@ -6967,7 +6967,7 @@
       "actualResult": "Successful validation of Input Validation scenario 23 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 150
+      "duration": 209
     },
     {
       "id": "TC_VAL_024",
@@ -6990,7 +6990,7 @@
       "actualResult": "Successful validation of Input Validation scenario 24 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 227
+      "duration": 298
     },
     {
       "id": "TC_VAL_025",
@@ -7013,7 +7013,7 @@
       "actualResult": "Successful validation of Input Validation scenario 25 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 224
+      "duration": 135
     },
     {
       "id": "TC_VAL_026",
@@ -7036,7 +7036,7 @@
       "actualResult": "Successful validation of Input Validation scenario 26 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 111
+      "duration": 131
     },
     {
       "id": "TC_VAL_027",
@@ -7059,7 +7059,7 @@
       "actualResult": "Successful validation of Input Validation scenario 27 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 159
+      "duration": 173
     },
     {
       "id": "TC_VAL_028",
@@ -7082,7 +7082,7 @@
       "actualResult": "Successful validation of Input Validation scenario 28 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 234
+      "duration": 283
     },
     {
       "id": "TC_VAL_029",
@@ -7105,7 +7105,7 @@
       "actualResult": "Successful validation of Input Validation scenario 29 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 183
+      "duration": 200
     },
     {
       "id": "TC_VAL_030",
@@ -7128,7 +7128,7 @@
       "actualResult": "Successful validation of Input Validation scenario 30 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 197
+      "duration": 219
     },
     {
       "id": "TC_VAL_031",
@@ -7151,7 +7151,7 @@
       "actualResult": "Successful validation of Input Validation scenario 31 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 280
+      "duration": 150
     },
     {
       "id": "TC_VAL_032",
@@ -7174,7 +7174,7 @@
       "actualResult": "Successful validation of Input Validation scenario 32 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 281
+      "duration": 219
     },
     {
       "id": "TC_VAL_033",
@@ -7197,7 +7197,7 @@
       "actualResult": "Successful validation of Input Validation scenario 33 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 158
+      "duration": 295
     },
     {
       "id": "TC_VAL_034",
@@ -7220,7 +7220,7 @@
       "actualResult": "Successful validation of Input Validation scenario 34 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 113
+      "duration": 213
     },
     {
       "id": "TC_VAL_035",
@@ -7239,11 +7239,11 @@
         "expectedState": "State_VAL_Active"
       },
       "expectedResult": "Successful validation of Input Validation scenario 35 showing expected state.",
-      "status": "FAILED",
-      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
-      "failureReason": "AssertionError: State mismatch on scenario index 314",
-      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_VAL_035_failure.png",
-      "duration": 294
+      "status": "PASSED",
+      "actualResult": "Successful validation of Input Validation scenario 35 showing expected state.",
+      "failureReason": null,
+      "screenshotPath": null,
+      "duration": 175
     },
     {
       "id": "TC_VAL_036",
@@ -7266,7 +7266,7 @@
       "actualResult": "Successful validation of Input Validation scenario 36 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 259
+      "duration": 136
     },
     {
       "id": "TC_VAL_037",
@@ -7289,7 +7289,7 @@
       "actualResult": "Successful validation of Input Validation scenario 37 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 172
+      "duration": 123
     },
     {
       "id": "TC_VAL_038",
@@ -7312,7 +7312,7 @@
       "actualResult": "Successful validation of Input Validation scenario 38 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 275
+      "duration": 253
     },
     {
       "id": "TC_VAL_039",
@@ -7331,11 +7331,11 @@
         "expectedState": "State_VAL_Active"
       },
       "expectedResult": "Successful validation of Input Validation scenario 39 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Input Validation scenario 39 showing expected state.",
-      "failureReason": null,
+      "status": "SKIPPED",
+      "actualResult": "Test skipped due to feature flag disabled.",
+      "failureReason": "FeatureDisabled",
       "screenshotPath": null,
-      "duration": 270
+      "duration": 0
     },
     {
       "id": "TC_VAL_040",
@@ -7358,7 +7358,7 @@
       "actualResult": "Successful validation of Input Validation scenario 40 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 144
+      "duration": 296
     },
     {
       "id": "TC_ERR_001",
@@ -7381,7 +7381,7 @@
       "actualResult": "Successful validation of Error Handling scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 160
+      "duration": 124
     },
     {
       "id": "TC_ERR_002",
@@ -7404,7 +7404,7 @@
       "actualResult": "Successful validation of Error Handling scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 299
+      "duration": 290
     },
     {
       "id": "TC_ERR_003",
@@ -7427,7 +7427,7 @@
       "actualResult": "Successful validation of Error Handling scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 260
     },
     {
       "id": "TC_ERR_004",
@@ -7450,7 +7450,7 @@
       "actualResult": "Successful validation of Error Handling scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 230
+      "duration": 299
     },
     {
       "id": "TC_ERR_005",
@@ -7473,7 +7473,7 @@
       "actualResult": "Successful validation of Error Handling scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 228
+      "duration": 218
     },
     {
       "id": "TC_ERR_006",
@@ -7496,7 +7496,7 @@
       "actualResult": "Successful validation of Error Handling scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 140
+      "duration": 250
     },
     {
       "id": "TC_ERR_007",
@@ -7519,7 +7519,7 @@
       "actualResult": "Successful validation of Error Handling scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 219
     },
     {
       "id": "TC_ERR_008",
@@ -7542,7 +7542,7 @@
       "actualResult": "Successful validation of Error Handling scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 237
+      "duration": 283
     },
     {
       "id": "TC_ERR_009",
@@ -7565,7 +7565,7 @@
       "actualResult": "Successful validation of Error Handling scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 279
+      "duration": 216
     },
     {
       "id": "TC_ERR_010",
@@ -7588,7 +7588,7 @@
       "actualResult": "Successful validation of Error Handling scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 273
+      "duration": 155
     },
     {
       "id": "TC_ERR_011",
@@ -7611,7 +7611,7 @@
       "actualResult": "Successful validation of Error Handling scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 277
+      "duration": 158
     },
     {
       "id": "TC_ERR_012",
@@ -7634,7 +7634,7 @@
       "actualResult": "Successful validation of Error Handling scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 163
+      "duration": 297
     },
     {
       "id": "TC_ERR_013",
@@ -7657,7 +7657,7 @@
       "actualResult": "Successful validation of Error Handling scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 277
+      "duration": 148
     },
     {
       "id": "TC_ERR_014",
@@ -7680,7 +7680,7 @@
       "actualResult": "Successful validation of Error Handling scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 184
+      "duration": 154
     },
     {
       "id": "TC_ERR_015",
@@ -7703,7 +7703,7 @@
       "actualResult": "Successful validation of Error Handling scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 160
     },
     {
       "id": "TC_ERR_016",
@@ -7726,7 +7726,7 @@
       "actualResult": "Successful validation of Error Handling scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 235
+      "duration": 146
     },
     {
       "id": "TC_ERR_017",
@@ -7749,7 +7749,7 @@
       "actualResult": "Successful validation of Error Handling scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 210
+      "duration": 252
     },
     {
       "id": "TC_ERR_018",
@@ -7772,7 +7772,7 @@
       "actualResult": "Successful validation of Error Handling scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 152
+      "duration": 198
     },
     {
       "id": "TC_ERR_019",
@@ -7795,7 +7795,7 @@
       "actualResult": "Successful validation of Error Handling scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 203
+      "duration": 294
     },
     {
       "id": "TC_ERR_020",
@@ -7818,7 +7818,7 @@
       "actualResult": "Successful validation of Error Handling scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 218
+      "duration": 287
     },
     {
       "id": "TC_SESS_001",
@@ -7841,7 +7841,7 @@
       "actualResult": "Successful validation of Session Management scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 217
+      "duration": 233
     },
     {
       "id": "TC_SESS_002",
@@ -7864,7 +7864,7 @@
       "actualResult": "Successful validation of Session Management scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 213
+      "duration": 203
     },
     {
       "id": "TC_SESS_003",
@@ -7887,7 +7887,7 @@
       "actualResult": "Successful validation of Session Management scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 124
+      "duration": 106
     },
     {
       "id": "TC_SESS_004",
@@ -7910,7 +7910,7 @@
       "actualResult": "Successful validation of Session Management scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 186
+      "duration": 210
     },
     {
       "id": "TC_SESS_005",
@@ -7933,7 +7933,7 @@
       "actualResult": "Successful validation of Session Management scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 152
+      "duration": 238
     },
     {
       "id": "TC_SESS_006",
@@ -7956,7 +7956,7 @@
       "actualResult": "Successful validation of Session Management scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 109
+      "duration": 123
     },
     {
       "id": "TC_SESS_007",
@@ -7979,7 +7979,7 @@
       "actualResult": "Successful validation of Session Management scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 289
+      "duration": 148
     },
     {
       "id": "TC_SESS_008",
@@ -8002,7 +8002,7 @@
       "actualResult": "Successful validation of Session Management scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 196
+      "duration": 133
     },
     {
       "id": "TC_SESS_009",
@@ -8025,7 +8025,7 @@
       "actualResult": "Successful validation of Session Management scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 157
+      "duration": 127
     },
     {
       "id": "TC_SESS_010",
@@ -8048,7 +8048,7 @@
       "actualResult": "Successful validation of Session Management scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 278
+      "duration": 245
     },
     {
       "id": "TC_SESS_011",
@@ -8071,7 +8071,7 @@
       "actualResult": "Successful validation of Session Management scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 156
+      "duration": 296
     },
     {
       "id": "TC_SESS_012",
@@ -8094,7 +8094,7 @@
       "actualResult": "Successful validation of Session Management scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 299
+      "duration": 107
     },
     {
       "id": "TC_SESS_013",
@@ -8117,7 +8117,7 @@
       "actualResult": "Successful validation of Session Management scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 198
+      "duration": 275
     },
     {
       "id": "TC_SESS_014",
@@ -8140,7 +8140,7 @@
       "actualResult": "Successful validation of Session Management scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 110
+      "duration": 133
     },
     {
       "id": "TC_SESS_015",
@@ -8163,7 +8163,7 @@
       "actualResult": "Successful validation of Session Management scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 286
+      "duration": 189
     },
     {
       "id": "TC_SESS_016",
@@ -8186,7 +8186,7 @@
       "actualResult": "Successful validation of Session Management scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 122
+      "duration": 244
     },
     {
       "id": "TC_SESS_017",
@@ -8209,7 +8209,7 @@
       "actualResult": "Successful validation of Session Management scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 153
+      "duration": 177
     },
     {
       "id": "TC_SESS_018",
@@ -8232,7 +8232,7 @@
       "actualResult": "Successful validation of Session Management scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 157
+      "duration": 212
     },
     {
       "id": "TC_SESS_019",
@@ -8255,7 +8255,7 @@
       "actualResult": "Successful validation of Session Management scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 150
+      "duration": 153
     },
     {
       "id": "TC_SESS_020",
@@ -8278,7 +8278,7 @@
       "actualResult": "Successful validation of Session Management scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 260
+      "duration": 120
     },
     {
       "id": "TC_NOTIF_001",
@@ -8301,7 +8301,7 @@
       "actualResult": "Successful validation of Notifications scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 183
+      "duration": 107
     },
     {
       "id": "TC_NOTIF_002",
@@ -8324,7 +8324,7 @@
       "actualResult": "Successful validation of Notifications scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 140
+      "duration": 233
     },
     {
       "id": "TC_NOTIF_003",
@@ -8347,7 +8347,7 @@
       "actualResult": "Successful validation of Notifications scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 112
+      "duration": 153
     },
     {
       "id": "TC_NOTIF_004",
@@ -8370,7 +8370,7 @@
       "actualResult": "Successful validation of Notifications scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 252
+      "duration": 131
     },
     {
       "id": "TC_NOTIF_005",
@@ -8393,7 +8393,7 @@
       "actualResult": "Successful validation of Notifications scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 130
+      "duration": 139
     },
     {
       "id": "TC_NOTIF_006",
@@ -8416,7 +8416,7 @@
       "actualResult": "Successful validation of Notifications scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 103
+      "duration": 117
     },
     {
       "id": "TC_NOTIF_007",
@@ -8439,7 +8439,7 @@
       "actualResult": "Successful validation of Notifications scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 204
+      "duration": 217
     },
     {
       "id": "TC_NOTIF_008",
@@ -8462,7 +8462,7 @@
       "actualResult": "Successful validation of Notifications scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 226
+      "duration": 215
     },
     {
       "id": "TC_NOTIF_009",
@@ -8485,7 +8485,7 @@
       "actualResult": "Successful validation of Notifications scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 126
+      "duration": 234
     },
     {
       "id": "TC_NOTIF_010",
@@ -8508,7 +8508,7 @@
       "actualResult": "Successful validation of Notifications scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 117
+      "duration": 206
     },
     {
       "id": "TC_NOTIF_011",
@@ -8531,7 +8531,7 @@
       "actualResult": "Successful validation of Notifications scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 138
+      "duration": 205
     },
     {
       "id": "TC_NOTIF_012",
@@ -8554,7 +8554,7 @@
       "actualResult": "Successful validation of Notifications scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 284
+      "duration": 118
     },
     {
       "id": "TC_NOTIF_013",
@@ -8577,7 +8577,7 @@
       "actualResult": "Successful validation of Notifications scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 253
+      "duration": 106
     },
     {
       "id": "TC_NOTIF_014",
@@ -8600,7 +8600,7 @@
       "actualResult": "Successful validation of Notifications scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 108
+      "duration": 135
     },
     {
       "id": "TC_NOTIF_015",
@@ -8623,7 +8623,7 @@
       "actualResult": "Successful validation of Notifications scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 274
+      "duration": 217
     },
     {
       "id": "TC_NOTIF_016",
@@ -8646,7 +8646,7 @@
       "actualResult": "Successful validation of Notifications scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 242
+      "duration": 107
     },
     {
       "id": "TC_NOTIF_017",
@@ -8669,7 +8669,7 @@
       "actualResult": "Successful validation of Notifications scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 204
+      "duration": 141
     },
     {
       "id": "TC_NOTIF_018",
@@ -8692,7 +8692,7 @@
       "actualResult": "Successful validation of Notifications scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 248
+      "duration": 137
     },
     {
       "id": "TC_NOTIF_019",
@@ -8715,7 +8715,7 @@
       "actualResult": "Successful validation of Notifications scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 171
+      "duration": 249
     },
     {
       "id": "TC_NOTIF_020",
@@ -8738,7 +8738,7 @@
       "actualResult": "Successful validation of Notifications scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 211
+      "duration": 150
     },
     {
       "id": "TC_UPL_001",
@@ -8761,7 +8761,7 @@
       "actualResult": "Successful validation of File Upload scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 267
+      "duration": 113
     },
     {
       "id": "TC_UPL_002",
@@ -8784,7 +8784,7 @@
       "actualResult": "Successful validation of File Upload scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 199
+      "duration": 186
     },
     {
       "id": "TC_UPL_003",
@@ -8807,7 +8807,7 @@
       "actualResult": "Successful validation of File Upload scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 226
+      "duration": 194
     },
     {
       "id": "TC_UPL_004",
@@ -8830,7 +8830,7 @@
       "actualResult": "Successful validation of File Upload scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 119
+      "duration": 164
     },
     {
       "id": "TC_UPL_005",
@@ -8853,7 +8853,7 @@
       "actualResult": "Successful validation of File Upload scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 104
+      "duration": 265
     },
     {
       "id": "TC_UPL_006",
@@ -8876,7 +8876,7 @@
       "actualResult": "Successful validation of File Upload scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 270
+      "duration": 285
     },
     {
       "id": "TC_UPL_007",
@@ -8899,7 +8899,7 @@
       "actualResult": "Successful validation of File Upload scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 149
+      "duration": 110
     },
     {
       "id": "TC_UPL_008",
@@ -8922,7 +8922,7 @@
       "actualResult": "Successful validation of File Upload scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 187
     },
     {
       "id": "TC_UPL_009",
@@ -8945,7 +8945,7 @@
       "actualResult": "Successful validation of File Upload scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 171
+      "duration": 244
     },
     {
       "id": "TC_UPL_010",
@@ -8968,7 +8968,7 @@
       "actualResult": "Successful validation of File Upload scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 257
+      "duration": 294
     },
     {
       "id": "TC_UPL_011",
@@ -8991,7 +8991,7 @@
       "actualResult": "Successful validation of File Upload scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 100
+      "duration": 294
     },
     {
       "id": "TC_UPL_012",
@@ -9014,7 +9014,7 @@
       "actualResult": "Successful validation of File Upload scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 218
+      "duration": 142
     },
     {
       "id": "TC_UPL_013",
@@ -9033,11 +9033,11 @@
         "expectedState": "State_UPL_Active"
       },
       "expectedResult": "Successful validation of File Upload scenario 13 showing expected state.",
-      "status": "SKIPPED",
-      "actualResult": "Test skipped due to feature flag disabled.",
-      "failureReason": "FeatureDisabled",
+      "status": "PASSED",
+      "actualResult": "Successful validation of File Upload scenario 13 showing expected state.",
+      "failureReason": null,
       "screenshotPath": null,
-      "duration": 0
+      "duration": 295
     },
     {
       "id": "TC_UPL_014",
@@ -9060,7 +9060,7 @@
       "actualResult": "Successful validation of File Upload scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 138
+      "duration": 127
     },
     {
       "id": "TC_UPL_015",
@@ -9083,7 +9083,7 @@
       "actualResult": "Successful validation of File Upload scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 137
+      "duration": 113
     },
     {
       "id": "TC_UPL_016",
@@ -9106,7 +9106,7 @@
       "actualResult": "Successful validation of File Upload scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 161
+      "duration": 249
     },
     {
       "id": "TC_UPL_017",
@@ -9129,7 +9129,7 @@
       "actualResult": "Successful validation of File Upload scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 113
+      "duration": 213
     },
     {
       "id": "TC_UPL_018",
@@ -9152,7 +9152,7 @@
       "actualResult": "Successful validation of File Upload scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 292
+      "duration": 286
     },
     {
       "id": "TC_UPL_019",
@@ -9175,7 +9175,7 @@
       "actualResult": "Successful validation of File Upload scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 299
+      "duration": 175
     },
     {
       "id": "TC_UPL_020",
@@ -9198,7 +9198,7 @@
       "actualResult": "Successful validation of File Upload scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 187
+      "duration": 117
     },
     {
       "id": "TC_OFF_001",
@@ -9221,7 +9221,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 118
+      "duration": 205
     },
     {
       "id": "TC_OFF_002",
@@ -9244,7 +9244,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 125
+      "duration": 118
     },
     {
       "id": "TC_OFF_003",
@@ -9267,7 +9267,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 252
+      "duration": 171
     },
     {
       "id": "TC_OFF_004",
@@ -9290,7 +9290,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 128
+      "duration": 163
     },
     {
       "id": "TC_OFF_005",
@@ -9313,7 +9313,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 298
+      "duration": 224
     },
     {
       "id": "TC_OFF_006",
@@ -9336,7 +9336,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 196
+      "duration": 182
     },
     {
       "id": "TC_OFF_007",
@@ -9359,7 +9359,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 220
+      "duration": 235
     },
     {
       "id": "TC_OFF_008",
@@ -9382,7 +9382,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 103
+      "duration": 202
     },
     {
       "id": "TC_OFF_009",
@@ -9405,7 +9405,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 135
+      "duration": 285
     },
     {
       "id": "TC_OFF_010",
@@ -9428,7 +9428,7 @@
       "actualResult": "Successful validation of Offline Handling scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 144
+      "duration": 172
     },
     {
       "id": "TC_ACC_001",
@@ -9451,7 +9451,7 @@
       "actualResult": "Successful validation of Accessibility scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 218
+      "duration": 151
     },
     {
       "id": "TC_ACC_002",
@@ -9474,7 +9474,7 @@
       "actualResult": "Successful validation of Accessibility scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 208
+      "duration": 246
     },
     {
       "id": "TC_ACC_003",
@@ -9497,7 +9497,7 @@
       "actualResult": "Successful validation of Accessibility scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 299
+      "duration": 239
     },
     {
       "id": "TC_ACC_004",
@@ -9520,7 +9520,7 @@
       "actualResult": "Successful validation of Accessibility scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 213
+      "duration": 225
     },
     {
       "id": "TC_ACC_005",
@@ -9543,7 +9543,7 @@
       "actualResult": "Successful validation of Accessibility scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 231
+      "duration": 271
     },
     {
       "id": "TC_ACC_006",
@@ -9566,7 +9566,7 @@
       "actualResult": "Successful validation of Accessibility scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 241
+      "duration": 227
     },
     {
       "id": "TC_ACC_007",
@@ -9589,7 +9589,7 @@
       "actualResult": "Successful validation of Accessibility scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 109
+      "duration": 106
     },
     {
       "id": "TC_ACC_008",
@@ -9612,7 +9612,7 @@
       "actualResult": "Successful validation of Accessibility scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 124
+      "duration": 273
     },
     {
       "id": "TC_ACC_009",
@@ -9635,7 +9635,7 @@
       "actualResult": "Successful validation of Accessibility scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 126
+      "duration": 195
     },
     {
       "id": "TC_ACC_010",
@@ -9654,11 +9654,11 @@
         "expectedState": "State_ACC_Active"
       },
       "expectedResult": "Successful validation of Accessibility scenario 10 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Accessibility scenario 10 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 122
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 419",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_ACC_010_failure.png",
+      "duration": 166
     },
     {
       "id": "TC_ACC_011",
@@ -9681,7 +9681,7 @@
       "actualResult": "Successful validation of Accessibility scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 256
+      "duration": 216
     },
     {
       "id": "TC_ACC_012",
@@ -9704,7 +9704,7 @@
       "actualResult": "Successful validation of Accessibility scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 273
+      "duration": 267
     },
     {
       "id": "TC_ACC_013",
@@ -9727,7 +9727,7 @@
       "actualResult": "Successful validation of Accessibility scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 141
+      "duration": 243
     },
     {
       "id": "TC_ACC_014",
@@ -9750,7 +9750,7 @@
       "actualResult": "Successful validation of Accessibility scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 168
+      "duration": 296
     },
     {
       "id": "TC_ACC_015",
@@ -9773,7 +9773,7 @@
       "actualResult": "Successful validation of Accessibility scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 161
+      "duration": 283
     },
     {
       "id": "TC_ACC_016",
@@ -9796,7 +9796,7 @@
       "actualResult": "Successful validation of Accessibility scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 233
+      "duration": 246
     },
     {
       "id": "TC_ACC_017",
@@ -9819,7 +9819,7 @@
       "actualResult": "Successful validation of Accessibility scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 171
+      "duration": 132
     },
     {
       "id": "TC_ACC_018",
@@ -9842,7 +9842,7 @@
       "actualResult": "Successful validation of Accessibility scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 144
+      "duration": 192
     },
     {
       "id": "TC_ACC_019",
@@ -9865,7 +9865,7 @@
       "actualResult": "Successful validation of Accessibility scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 103
+      "duration": 156
     },
     {
       "id": "TC_ACC_020",
@@ -9888,7 +9888,7 @@
       "actualResult": "Successful validation of Accessibility scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 130
+      "duration": 213
     },
     {
       "id": "TC_RESP_001",
@@ -9911,7 +9911,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 156
+      "duration": 140
     },
     {
       "id": "TC_RESP_002",
@@ -9934,7 +9934,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 132
+      "duration": 287
     },
     {
       "id": "TC_RESP_003",
@@ -9957,7 +9957,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 179
+      "duration": 284
     },
     {
       "id": "TC_RESP_004",
@@ -9980,7 +9980,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 121
+      "duration": 299
     },
     {
       "id": "TC_RESP_005",
@@ -10003,7 +10003,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 197
+      "duration": 286
     },
     {
       "id": "TC_RESP_006",
@@ -10026,7 +10026,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 156
+      "duration": 227
     },
     {
       "id": "TC_RESP_007",
@@ -10049,7 +10049,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 174
+      "duration": 206
     },
     {
       "id": "TC_RESP_008",
@@ -10072,7 +10072,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 293
+      "duration": 138
     },
     {
       "id": "TC_RESP_009",
@@ -10095,7 +10095,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 298
+      "duration": 280
     },
     {
       "id": "TC_RESP_010",
@@ -10118,7 +10118,7 @@
       "actualResult": "Successful validation of Responsive UI scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 209
+      "duration": 132
     },
     {
       "id": "TC_PERF_001",
@@ -10141,7 +10141,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 118
+      "duration": 169
     },
     {
       "id": "TC_PERF_002",
@@ -10164,7 +10164,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 296
+      "duration": 173
     },
     {
       "id": "TC_PERF_003",
@@ -10183,11 +10183,11 @@
         "expectedState": "State_PERF_Active"
       },
       "expectedResult": "Successful validation of Performance Smoke Tests scenario 3 showing expected state.",
-      "status": "FAILED",
-      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
-      "failureReason": "AssertionError: State mismatch on scenario index 442",
-      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_PERF_003_failure.png",
-      "duration": 204
+      "status": "PASSED",
+      "actualResult": "Successful validation of Performance Smoke Tests scenario 3 showing expected state.",
+      "failureReason": null,
+      "screenshotPath": null,
+      "duration": 289
     },
     {
       "id": "TC_PERF_004",
@@ -10210,7 +10210,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 253
+      "duration": 131
     },
     {
       "id": "TC_PERF_005",
@@ -10233,7 +10233,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 103
+      "duration": 223
     },
     {
       "id": "TC_PERF_006",
@@ -10256,7 +10256,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 130
+      "duration": 157
     },
     {
       "id": "TC_PERF_007",
@@ -10279,7 +10279,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 115
+      "duration": 264
     },
     {
       "id": "TC_PERF_008",
@@ -10302,7 +10302,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 8 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 215
+      "duration": 125
     },
     {
       "id": "TC_PERF_009",
@@ -10325,7 +10325,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 213
+      "duration": 118
     },
     {
       "id": "TC_PERF_010",
@@ -10348,7 +10348,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 200
+      "duration": 128
     },
     {
       "id": "TC_PERF_011",
@@ -10371,7 +10371,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 218
+      "duration": 213
     },
     {
       "id": "TC_PERF_012",
@@ -10394,7 +10394,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 204
+      "duration": 142
     },
     {
       "id": "TC_PERF_013",
@@ -10417,7 +10417,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 151
+      "duration": 179
     },
     {
       "id": "TC_PERF_014",
@@ -10440,7 +10440,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 226
+      "duration": 251
     },
     {
       "id": "TC_PERF_015",
@@ -10463,7 +10463,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 122
+      "duration": 113
     },
     {
       "id": "TC_PERF_016",
@@ -10482,11 +10482,11 @@
         "expectedState": "State_PERF_Active"
       },
       "expectedResult": "Successful validation of Performance Smoke Tests scenario 16 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Performance Smoke Tests scenario 16 showing expected state.",
-      "failureReason": null,
+      "status": "SKIPPED",
+      "actualResult": "Test skipped due to feature flag disabled.",
+      "failureReason": "FeatureDisabled",
       "screenshotPath": null,
-      "duration": 130
+      "duration": 0
     },
     {
       "id": "TC_PERF_017",
@@ -10509,7 +10509,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 273
+      "duration": 251
     },
     {
       "id": "TC_PERF_018",
@@ -10532,7 +10532,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 18 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 277
+      "duration": 207
     },
     {
       "id": "TC_PERF_019",
@@ -10555,7 +10555,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 104
+      "duration": 299
     },
     {
       "id": "TC_PERF_020",
@@ -10578,7 +10578,7 @@
       "actualResult": "Successful validation of Performance Smoke Tests scenario 20 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 280
+      "duration": 164
     },
     {
       "id": "TC_REGR_001",
@@ -10601,7 +10601,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 1 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 181
+      "duration": 121
     },
     {
       "id": "TC_REGR_002",
@@ -10624,7 +10624,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 2 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 252
+      "duration": 244
     },
     {
       "id": "TC_REGR_003",
@@ -10647,7 +10647,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 3 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 163
+      "duration": 146
     },
     {
       "id": "TC_REGR_004",
@@ -10670,7 +10670,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 4 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 165
+      "duration": 252
     },
     {
       "id": "TC_REGR_005",
@@ -10693,7 +10693,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 5 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 282
+      "duration": 293
     },
     {
       "id": "TC_REGR_006",
@@ -10716,7 +10716,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 6 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 293
+      "duration": 243
     },
     {
       "id": "TC_REGR_007",
@@ -10739,7 +10739,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 7 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 254
+      "duration": 270
     },
     {
       "id": "TC_REGR_008",
@@ -10758,11 +10758,11 @@
         "expectedState": "State_REGR_Active"
       },
       "expectedResult": "Successful validation of Regression Suite scenario 8 showing expected state.",
-      "status": "SKIPPED",
-      "actualResult": "Test skipped due to feature flag disabled.",
-      "failureReason": "FeatureDisabled",
+      "status": "PASSED",
+      "actualResult": "Successful validation of Regression Suite scenario 8 showing expected state.",
+      "failureReason": null,
       "screenshotPath": null,
-      "duration": 0
+      "duration": 140
     },
     {
       "id": "TC_REGR_009",
@@ -10785,7 +10785,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 9 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 204
+      "duration": 268
     },
     {
       "id": "TC_REGR_010",
@@ -10808,7 +10808,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 10 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 148
+      "duration": 256
     },
     {
       "id": "TC_REGR_011",
@@ -10831,7 +10831,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 11 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 221
+      "duration": 185
     },
     {
       "id": "TC_REGR_012",
@@ -10854,7 +10854,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 12 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 205
+      "duration": 111
     },
     {
       "id": "TC_REGR_013",
@@ -10877,7 +10877,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 13 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 164
+      "duration": 224
     },
     {
       "id": "TC_REGR_014",
@@ -10900,7 +10900,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 14 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 271
+      "duration": 115
     },
     {
       "id": "TC_REGR_015",
@@ -10923,7 +10923,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 15 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 223
+      "duration": 138
     },
     {
       "id": "TC_REGR_016",
@@ -10946,7 +10946,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 16 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 180
+      "duration": 100
     },
     {
       "id": "TC_REGR_017",
@@ -10969,7 +10969,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 17 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 289
+      "duration": 198
     },
     {
       "id": "TC_REGR_018",
@@ -10988,11 +10988,11 @@
         "expectedState": "State_REGR_Active"
       },
       "expectedResult": "Successful validation of Regression Suite scenario 18 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Regression Suite scenario 18 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 269
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 477",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_REGR_018_failure.png",
+      "duration": 245
     },
     {
       "id": "TC_REGR_019",
@@ -11015,7 +11015,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 19 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 297
+      "duration": 136
     },
     {
       "id": "TC_REGR_020",
@@ -11034,11 +11034,11 @@
         "expectedState": "State_REGR_Active"
       },
       "expectedResult": "Successful validation of Regression Suite scenario 20 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Regression Suite scenario 20 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 250
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 479",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_REGR_020_failure.png",
+      "duration": 134
     },
     {
       "id": "TC_REGR_021",
@@ -11061,7 +11061,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 21 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 263
+      "duration": 268
     },
     {
       "id": "TC_REGR_022",
@@ -11084,7 +11084,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 22 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 278
+      "duration": 279
     },
     {
       "id": "TC_REGR_023",
@@ -11107,7 +11107,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 23 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 292
+      "duration": 153
     },
     {
       "id": "TC_REGR_024",
@@ -11130,7 +11130,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 24 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 226
+      "duration": 275
     },
     {
       "id": "TC_REGR_025",
@@ -11153,7 +11153,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 25 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 228
+      "duration": 182
     },
     {
       "id": "TC_REGR_026",
@@ -11176,7 +11176,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 26 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 107
+      "duration": 204
     },
     {
       "id": "TC_REGR_027",
@@ -11199,7 +11199,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 27 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 179
+      "duration": 246
     },
     {
       "id": "TC_REGR_028",
@@ -11222,7 +11222,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 28 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 171
+      "duration": 159
     },
     {
       "id": "TC_REGR_029",
@@ -11245,7 +11245,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 29 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 141
+      "duration": 258
     },
     {
       "id": "TC_REGR_030",
@@ -11268,7 +11268,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 30 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 201
+      "duration": 278
     },
     {
       "id": "TC_REGR_031",
@@ -11291,7 +11291,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 31 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 168
+      "duration": 173
     },
     {
       "id": "TC_REGR_032",
@@ -11314,7 +11314,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 32 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 120
+      "duration": 260
     },
     {
       "id": "TC_REGR_033",
@@ -11337,7 +11337,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 33 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 256
+      "duration": 104
     },
     {
       "id": "TC_REGR_034",
@@ -11360,7 +11360,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 34 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 293
+      "duration": 235
     },
     {
       "id": "TC_REGR_035",
@@ -11383,7 +11383,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 35 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 257
+      "duration": 182
     },
     {
       "id": "TC_REGR_036",
@@ -11406,7 +11406,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 36 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 236
+      "duration": 192
     },
     {
       "id": "TC_REGR_037",
@@ -11429,7 +11429,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 37 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 108
+      "duration": 167
     },
     {
       "id": "TC_REGR_038",
@@ -11452,7 +11452,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 38 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 153
+      "duration": 298
     },
     {
       "id": "TC_REGR_039",
@@ -11475,7 +11475,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 39 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 249
+      "duration": 109
     },
     {
       "id": "TC_REGR_040",
@@ -11498,7 +11498,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 40 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 183
+      "duration": 288
     },
     {
       "id": "TC_REGR_041",
@@ -11521,7 +11521,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 41 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 130
+      "duration": 286
     },
     {
       "id": "TC_REGR_042",
@@ -11540,11 +11540,11 @@
         "expectedState": "State_REGR_Active"
       },
       "expectedResult": "Successful validation of Regression Suite scenario 42 showing expected state.",
-      "status": "FAILED",
-      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
-      "failureReason": "AssertionError: State mismatch on scenario index 501",
-      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_REGR_042_failure.png",
-      "duration": 119
+      "status": "PASSED",
+      "actualResult": "Successful validation of Regression Suite scenario 42 showing expected state.",
+      "failureReason": null,
+      "screenshotPath": null,
+      "duration": 103
     },
     {
       "id": "TC_REGR_043",
@@ -11567,7 +11567,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 43 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 205
+      "duration": 292
     },
     {
       "id": "TC_REGR_044",
@@ -11590,7 +11590,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 44 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 153
+      "duration": 243
     },
     {
       "id": "TC_REGR_045",
@@ -11613,7 +11613,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 45 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 109
+      "duration": 287
     },
     {
       "id": "TC_REGR_046",
@@ -11636,7 +11636,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 46 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 274
+      "duration": 254
     },
     {
       "id": "TC_REGR_047",
@@ -11659,7 +11659,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 47 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 244
+      "duration": 121
     },
     {
       "id": "TC_REGR_048",
@@ -11678,11 +11678,11 @@
         "expectedState": "State_REGR_Active"
       },
       "expectedResult": "Successful validation of Regression Suite scenario 48 showing expected state.",
-      "status": "PASSED",
-      "actualResult": "Successful validation of Regression Suite scenario 48 showing expected state.",
-      "failureReason": null,
-      "screenshotPath": null,
-      "duration": 293
+      "status": "FAILED",
+      "actualResult": "Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.",
+      "failureReason": "AssertionError: State mismatch on scenario index 507",
+      "screenshotPath": "/home/runner/work/pdd-testing/pdd-testing/automation/screenshots/TC_REGR_048_failure.png",
+      "duration": 123
     },
     {
       "id": "TC_REGR_049",
@@ -11705,7 +11705,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 49 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 123
+      "duration": 265
     },
     {
       "id": "TC_REGR_050",
@@ -11728,7 +11728,7 @@
       "actualResult": "Successful validation of Regression Suite scenario 50 showing expected state.",
       "failureReason": null,
       "screenshotPath": null,
-      "duration": 215
+      "duration": 155
     }
   ],
   "metrics": {
@@ -11736,8 +11736,8 @@
     "modules": {
       "Authentication": {
         "total": 40,
-        "passed": 39,
-        "failed": 1,
+        "passed": 38,
+        "failed": 2,
         "skipped": 0
       },
       "Authorization": {
@@ -11754,51 +11754,51 @@
       },
       "Profile Management": {
         "total": 20,
-        "passed": 20,
-        "failed": 0,
-        "skipped": 0
-      },
-      "Navigation": {
-        "total": 30,
-        "passed": 30,
-        "failed": 0,
-        "skipped": 0
-      },
-      "Dashboard": {
-        "total": 20,
         "passed": 19,
         "failed": 0,
         "skipped": 1
       },
-      "Forms": {
-        "total": 40,
-        "passed": 39,
-        "failed": 0,
-        "skipped": 1
+      "Navigation": {
+        "total": 30,
+        "passed": 29,
+        "failed": 1,
+        "skipped": 0
       },
-      "CRUD Operations": {
+      "Dashboard": {
+        "total": 20,
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0
+      },
+      "Forms": {
         "total": 40,
         "passed": 40,
         "failed": 0,
         "skipped": 0
       },
-      "Search": {
-        "total": 20,
-        "passed": 20,
-        "failed": 0,
-        "skipped": 0
-      },
-      "Filters": {
-        "total": 20,
-        "passed": 20,
-        "failed": 0,
-        "skipped": 0
-      },
-      "Input Validation": {
+      "CRUD Operations": {
         "total": 40,
         "passed": 39,
         "failed": 1,
         "skipped": 0
+      },
+      "Search": {
+        "total": 20,
+        "passed": 19,
+        "failed": 1,
+        "skipped": 0
+      },
+      "Filters": {
+        "total": 20,
+        "passed": 19,
+        "failed": 0,
+        "skipped": 1
+      },
+      "Input Validation": {
+        "total": 40,
+        "passed": 39,
+        "failed": 0,
+        "skipped": 1
       },
       "Error Handling": {
         "total": 20,
@@ -11820,9 +11820,9 @@
       },
       "File Upload": {
         "total": 20,
-        "passed": 19,
+        "passed": 20,
         "failed": 0,
-        "skipped": 1
+        "skipped": 0
       },
       "Offline Handling": {
         "total": 10,
@@ -11832,8 +11832,8 @@
       },
       "Accessibility": {
         "total": 20,
-        "passed": 20,
-        "failed": 0,
+        "passed": 19,
+        "failed": 1,
         "skipped": 0
       },
       "Responsive UI": {
@@ -11845,17 +11845,17 @@
       "Performance Smoke Tests": {
         "total": 20,
         "passed": 19,
-        "failed": 1,
-        "skipped": 0
+        "failed": 0,
+        "skipped": 1
       },
       "Regression Suite": {
         "total": 50,
-        "passed": 48,
-        "failed": 1,
-        "skipped": 1
+        "passed": 47,
+        "failed": 3,
+        "skipped": 0
       }
     }
   },
-  "buildNumber": "3",
-  "executedAt": "2026-06-24T07:42:24.176Z"
+  "buildNumber": "4",
+  "executedAt": "2026-06-24T07:47:51.053Z"
 }

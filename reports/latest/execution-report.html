@@ -242,7 +242,7 @@ header p {
       <span class="logo">🛡️</span>
       <div>
         <h1>SafeRoute AI E2E Test Suite</h1>
-        <p>Build #3 · Executed on Wed, 24 Jun 2026 07:42:24 GMT</p>
+        <p>Build #4 · Executed on Wed, 24 Jun 2026 07:47:51 GMT</p>
       </div>
     </div>
   </header>
@@ -261,11 +261,11 @@ header p {
       </div>
       <div class="metric-card passed">
         <h3>Passed</h3>
-        <div class="val">502</div>
+        <div class="val">497</div>
       </div>
       <div class="metric-card failed">
         <h3>Failed</h3>
-        <div class="val">4</div>
+        <div class="val">9</div>
       </div>
       <div class="metric-card skipped">
         <h3>Skipped</h3>
@@ -273,7 +273,7 @@ header p {
       </div>
       <div class="metric-card">
         <h3>Pass Rate</h3>
-        <div class="val" style="color: var(--primary)">98.4%</div>
+        <div class="val" style="color: var(--primary)">97.5%</div>
       </div>
     </div>
 
@@ -392,11 +392,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_AUTH_006" data-module="Authentication" data-name="Authentication Verification - Case 6" data-status="PASSED" onclick="toggleDetails(5)">
+          <div class="test-item" data-id="TC_AUTH_006" data-module="Authentication" data-name="Authentication Verification - Case 6" data-status="FAILED" onclick="toggleDetails(5)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_AUTH_006</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Authentication Verification - Case 6</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -408,8 +408,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Authentication module.<br>2. Perform action/input for test case scenario 6.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Authentication scenario 6 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Authentication scenario 6 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 5</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_AUTH_006_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -502,11 +507,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_AUTH_011" data-module="Authentication" data-name="Authentication Verification - Case 11" data-status="FAILED" onclick="toggleDetails(10)">
+          <div class="test-item" data-id="TC_AUTH_011" data-module="Authentication" data-name="Authentication Verification - Case 11" data-status="PASSED" onclick="toggleDetails(10)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_AUTH_011</span>
-                <span class="badge failed">FAILED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">Authentication Verification - Case 11</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -518,13 +523,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Authentication module.<br>2. Perform action/input for test case scenario 11.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Authentication scenario 11 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 10</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Authentication scenario 11 showing expected state.</span></p>
               
-                <div class="screenshot-container">
-                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
-                  <img src="../screenshots/TC_AUTH_011_failure.png" alt="Failure Screenshot">
-                </div>
               
             </div>
           </div>
@@ -837,11 +837,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_AUTH_026" data-module="Authentication" data-name="Authentication Verification - Case 26" data-status="PASSED" onclick="toggleDetails(25)">
+          <div class="test-item" data-id="TC_AUTH_026" data-module="Authentication" data-name="Authentication Verification - Case 26" data-status="FAILED" onclick="toggleDetails(25)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_AUTH_026</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Authentication Verification - Case 26</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -853,8 +853,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Authentication module.<br>2. Perform action/input for test case scenario 26.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Authentication scenario 26 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Authentication scenario 26 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 25</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_AUTH_026_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -2509,11 +2514,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_PROF_012" data-module="Profile Management" data-name="Profile Management Verification - Case 12" data-status="PASSED" onclick="toggleDetails(101)">
+          <div class="test-item" data-id="TC_PROF_012" data-module="Profile Management" data-name="Profile Management Verification - Case 12" data-status="SKIPPED" onclick="toggleDetails(101)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_PROF_012</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge skipped">SKIPPED</span>
                 <span class="test-name">Profile Management Verification - Case 12</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -2525,8 +2530,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Profile Management module.<br>2. Perform action/input for test case scenario 12.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Profile Management scenario 12 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Profile Management scenario 12 showing expected state.</span></p>
-              
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
               
             </div>
           </div>
@@ -2773,11 +2778,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_NAV_004" data-module="Navigation" data-name="Navigation Verification - Case 4" data-status="PASSED" onclick="toggleDetails(113)">
+          <div class="test-item" data-id="TC_NAV_004" data-module="Navigation" data-name="Navigation Verification - Case 4" data-status="FAILED" onclick="toggleDetails(113)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_NAV_004</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Navigation Verification - Case 4</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -2789,8 +2794,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Navigation module.<br>2. Perform action/input for test case scenario 4.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Navigation scenario 4 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Navigation scenario 4 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 113</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_NAV_004_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -3411,11 +3421,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_DASH_003" data-module="Dashboard" data-name="Dashboard Verification - Case 3" data-status="SKIPPED" onclick="toggleDetails(142)">
+          <div class="test-item" data-id="TC_DASH_003" data-module="Dashboard" data-name="Dashboard Verification - Case 3" data-status="PASSED" onclick="toggleDetails(142)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_DASH_003</span>
-                <span class="badge skipped">SKIPPED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">Dashboard Verification - Case 3</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -3427,8 +3437,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Dashboard module.<br>2. Perform action/input for test case scenario 3.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Dashboard scenario 3 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Dashboard scenario 3 showing expected state.</span></p>
+              
               
             </div>
           </div>
@@ -4357,11 +4367,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_FORM_026" data-module="Forms" data-name="Forms Verification - Case 26" data-status="SKIPPED" onclick="toggleDetails(185)">
+          <div class="test-item" data-id="TC_FORM_026" data-module="Forms" data-name="Forms Verification - Case 26" data-status="PASSED" onclick="toggleDetails(185)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_FORM_026</span>
-                <span class="badge skipped">SKIPPED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">Forms Verification - Case 26</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -4373,8 +4383,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Forms module.<br>2. Perform action/input for test case scenario 26.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Forms scenario 26 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Forms scenario 26 showing expected state.</span></p>
+              
               
             </div>
           </div>
@@ -5281,11 +5291,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_CRUD_028" data-module="CRUD Operations" data-name="CRUD Operations Verification - Case 28" data-status="PASSED" onclick="toggleDetails(227)">
+          <div class="test-item" data-id="TC_CRUD_028" data-module="CRUD Operations" data-name="CRUD Operations Verification - Case 28" data-status="FAILED" onclick="toggleDetails(227)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_CRUD_028</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">CRUD Operations Verification - Case 28</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -5297,8 +5307,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to CRUD Operations module.<br>2. Perform action/input for test case scenario 28.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of CRUD Operations scenario 28 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of CRUD Operations scenario 28 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 227</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_CRUD_028_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -5721,11 +5736,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_SRCH_008" data-module="Search" data-name="Search Verification - Case 8" data-status="PASSED" onclick="toggleDetails(247)">
+          <div class="test-item" data-id="TC_SRCH_008" data-module="Search" data-name="Search Verification - Case 8" data-status="FAILED" onclick="toggleDetails(247)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_SRCH_008</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Search Verification - Case 8</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -5737,8 +5752,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Search module.<br>2. Perform action/input for test case scenario 8.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Search scenario 8 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Search scenario 8 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 247</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_SRCH_008_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -6403,11 +6423,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_FILT_019" data-module="Filters" data-name="Filters Verification - Case 19" data-status="PASSED" onclick="toggleDetails(278)">
+          <div class="test-item" data-id="TC_FILT_019" data-module="Filters" data-name="Filters Verification - Case 19" data-status="SKIPPED" onclick="toggleDetails(278)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_FILT_019</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge skipped">SKIPPED</span>
                 <span class="test-name">Filters Verification - Case 19</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -6419,8 +6439,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Filters module.<br>2. Perform action/input for test case scenario 19.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Filters scenario 19 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Filters scenario 19 showing expected state.</span></p>
-              
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
               
             </div>
           </div>
@@ -7195,11 +7215,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_VAL_035" data-module="Input Validation" data-name="Input Validation Verification - Case 35" data-status="FAILED" onclick="toggleDetails(314)">
+          <div class="test-item" data-id="TC_VAL_035" data-module="Input Validation" data-name="Input Validation Verification - Case 35" data-status="PASSED" onclick="toggleDetails(314)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_VAL_035</span>
-                <span class="badge failed">FAILED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">Input Validation Verification - Case 35</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -7211,13 +7231,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Input Validation module.<br>2. Perform action/input for test case scenario 35.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Input Validation scenario 35 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 314</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Input Validation scenario 35 showing expected state.</span></p>
               
-                <div class="screenshot-container">
-                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
-                  <img src="../screenshots/TC_VAL_035_failure.png" alt="Failure Screenshot">
-                </div>
               
             </div>
           </div>
@@ -7288,11 +7303,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_VAL_039" data-module="Input Validation" data-name="Input Validation Verification - Case 39" data-status="PASSED" onclick="toggleDetails(318)">
+          <div class="test-item" data-id="TC_VAL_039" data-module="Input Validation" data-name="Input Validation Verification - Case 39" data-status="SKIPPED" onclick="toggleDetails(318)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_VAL_039</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge skipped">SKIPPED</span>
                 <span class="test-name">Input Validation Verification - Case 39</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -7304,8 +7319,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Input Validation module.<br>2. Perform action/input for test case scenario 39.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Input Validation scenario 39 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Input Validation scenario 39 showing expected state.</span></p>
-              
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
               
             </div>
           </div>
@@ -8916,11 +8931,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_UPL_013" data-module="File Upload" data-name="File Upload Verification - Case 13" data-status="SKIPPED" onclick="toggleDetails(392)">
+          <div class="test-item" data-id="TC_UPL_013" data-module="File Upload" data-name="File Upload Verification - Case 13" data-status="PASSED" onclick="toggleDetails(392)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_UPL_013</span>
-                <span class="badge skipped">SKIPPED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">File Upload Verification - Case 13</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -8932,8 +8947,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to File Upload module.<br>2. Perform action/input for test case scenario 13.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of File Upload scenario 13 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of File Upload scenario 13 showing expected state.</span></p>
+              
               
             </div>
           </div>
@@ -9510,11 +9525,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_ACC_010" data-module="Accessibility" data-name="Accessibility Verification - Case 10" data-status="PASSED" onclick="toggleDetails(419)">
+          <div class="test-item" data-id="TC_ACC_010" data-module="Accessibility" data-name="Accessibility Verification - Case 10" data-status="FAILED" onclick="toggleDetails(419)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_ACC_010</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Accessibility Verification - Case 10</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -9526,8 +9541,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Accessibility module.<br>2. Perform action/input for test case scenario 10.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Accessibility scenario 10 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Accessibility scenario 10 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 419</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_ACC_010_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -10016,11 +10036,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_PERF_003" data-module="Performance Smoke Tests" data-name="Performance Smoke Tests Verification - Case 3" data-status="FAILED" onclick="toggleDetails(442)">
+          <div class="test-item" data-id="TC_PERF_003" data-module="Performance Smoke Tests" data-name="Performance Smoke Tests Verification - Case 3" data-status="PASSED" onclick="toggleDetails(442)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_PERF_003</span>
-                <span class="badge failed">FAILED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">Performance Smoke Tests Verification - Case 3</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -10032,13 +10052,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Performance Smoke Tests module.<br>2. Perform action/input for test case scenario 3.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Performance Smoke Tests scenario 3 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 442</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Performance Smoke Tests scenario 3 showing expected state.</span></p>
               
-                <div class="screenshot-container">
-                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
-                  <img src="../screenshots/TC_PERF_003_failure.png" alt="Failure Screenshot">
-                </div>
               
             </div>
           </div>
@@ -10307,11 +10322,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_PERF_016" data-module="Performance Smoke Tests" data-name="Performance Smoke Tests Verification - Case 16" data-status="PASSED" onclick="toggleDetails(455)">
+          <div class="test-item" data-id="TC_PERF_016" data-module="Performance Smoke Tests" data-name="Performance Smoke Tests Verification - Case 16" data-status="SKIPPED" onclick="toggleDetails(455)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_PERF_016</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge skipped">SKIPPED</span>
                 <span class="test-name">Performance Smoke Tests Verification - Case 16</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -10323,8 +10338,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Performance Smoke Tests module.<br>2. Perform action/input for test case scenario 16.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Performance Smoke Tests scenario 16 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Performance Smoke Tests scenario 16 showing expected state.</span></p>
-              
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
               
             </div>
           </div>
@@ -10571,11 +10586,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_REGR_008" data-module="Regression Suite" data-name="Regression Suite Verification - Case 8" data-status="SKIPPED" onclick="toggleDetails(467)">
+          <div class="test-item" data-id="TC_REGR_008" data-module="Regression Suite" data-name="Regression Suite Verification - Case 8" data-status="PASSED" onclick="toggleDetails(467)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_REGR_008</span>
-                <span class="badge skipped">SKIPPED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">Regression Suite Verification - Case 8</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -10587,8 +10602,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Regression Suite module.<br>2. Perform action/input for test case scenario 8.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Regression Suite scenario 8 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Test skipped due to feature flag disabled.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">FeatureDisabled</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Regression Suite scenario 8 showing expected state.</span></p>
+              
               
             </div>
           </div>
@@ -10791,11 +10806,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_REGR_018" data-module="Regression Suite" data-name="Regression Suite Verification - Case 18" data-status="PASSED" onclick="toggleDetails(477)">
+          <div class="test-item" data-id="TC_REGR_018" data-module="Regression Suite" data-name="Regression Suite Verification - Case 18" data-status="FAILED" onclick="toggleDetails(477)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_REGR_018</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Regression Suite Verification - Case 18</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -10807,8 +10822,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Regression Suite module.<br>2. Perform action/input for test case scenario 18.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Regression Suite scenario 18 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Regression Suite scenario 18 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 477</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_REGR_018_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -10835,11 +10855,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_REGR_020" data-module="Regression Suite" data-name="Regression Suite Verification - Case 20" data-status="PASSED" onclick="toggleDetails(479)">
+          <div class="test-item" data-id="TC_REGR_020" data-module="Regression Suite" data-name="Regression Suite Verification - Case 20" data-status="FAILED" onclick="toggleDetails(479)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_REGR_020</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Regression Suite Verification - Case 20</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -10851,8 +10871,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Regression Suite module.<br>2. Perform action/input for test case scenario 20.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Regression Suite scenario 20 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Regression Suite scenario 20 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 479</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_REGR_020_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>
@@ -11319,11 +11344,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_REGR_042" data-module="Regression Suite" data-name="Regression Suite Verification - Case 42" data-status="FAILED" onclick="toggleDetails(501)">
+          <div class="test-item" data-id="TC_REGR_042" data-module="Regression Suite" data-name="Regression Suite Verification - Case 42" data-status="PASSED" onclick="toggleDetails(501)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_REGR_042</span>
-                <span class="badge failed">FAILED</span>
+                <span class="badge passed">PASSED</span>
                 <span class="test-name">Regression Suite Verification - Case 42</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -11335,13 +11360,8 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Regression Suite module.<br>2. Perform action/input for test case scenario 42.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Regression Suite scenario 42 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
-              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 501</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Regression Suite scenario 42 showing expected state.</span></p>
               
-                <div class="screenshot-container">
-                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
-                  <img src="../screenshots/TC_REGR_042_failure.png" alt="Failure Screenshot">
-                </div>
               
             </div>
           </div>
@@ -11456,11 +11476,11 @@ header p {
             </div>
           </div>
         
-          <div class="test-item" data-id="TC_REGR_048" data-module="Regression Suite" data-name="Regression Suite Verification - Case 48" data-status="PASSED" onclick="toggleDetails(507)">
+          <div class="test-item" data-id="TC_REGR_048" data-module="Regression Suite" data-name="Regression Suite Verification - Case 48" data-status="FAILED" onclick="toggleDetails(507)">
             <div class="test-header">
               <div class="test-id-name">
                 <span class="test-id">TC_REGR_048</span>
-                <span class="badge passed">PASSED</span>
+                <span class="badge failed">FAILED</span>
                 <span class="test-name">Regression Suite Verification - Case 48</span>
               </div>
               <div style="font-size: 13px; color: var(--text-muted)">
@@ -11472,8 +11492,13 @@ header p {
               <p><strong>Preconditions:</strong> Application is launched. Device is in steady state.</p>
               <p><strong>Steps:</strong><br>1. Navigate to Regression Suite module.<br>2. Perform action/input for test case scenario 48.<br>3. Verify outcomes and states.</p>
               <p><strong>Expected Result:</strong> Successful validation of Regression Suite scenario 48 showing expected state.</p>
-              <p><strong>Actual Result:</strong> <span style="color: var(--text)">Successful validation of Regression Suite scenario 48 showing expected state.</span></p>
+              <p><strong>Actual Result:</strong> <span style="color: var(--danger)">Failed during verification step. Assertion error: expected state State_Active but found State_Inactive.</span></p>
+              <p><strong>Reason:</strong> <span style="color: var(--danger)">AssertionError: State mismatch on scenario index 507</span></p>
               
+                <div class="screenshot-container">
+                  <p style="margin: 0 0 6px 0"><strong>Failure Screenshot:</strong></p>
+                  <img src="../screenshots/TC_REGR_048_failure.png" alt="Failure Screenshot">
+                </div>
               
             </div>
           </div>

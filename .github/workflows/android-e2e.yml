@@ -52,6 +52,17 @@ jobs:
           cd automation
           npm install
 
+      - name: Setup k6 Load Tester
+        run: |
+          curl -sL https://github.com/grafana/k6/releases/download/v0.49.0/k6-v0.49.0-linux-amd64.tar.gz | tar -xz
+          sudo mv k6-v0.49.0-linux-amd64/k6 /usr/local/bin/
+          k6 version
+
+      - name: Run k6 API Load Tests
+        run: |
+          cd automation/load-tests
+          k6 run --summary-export=k6-summary.json k6-load-test.js || true
+
       - name: Setup Appium and Driver
         run: |
           npm install -g appium

@@ -149,6 +149,16 @@ async function main() {
   
   // 6. Write Markdown Summary
   writeMarkdownSummary(results, metrics, buildNumber);
+  try {
+    require('../load-tests/process-k6-results');
+    const loadTestSummaryFile = path.join(summaryDir, 'load-test-summary.md');
+    if (fs.existsSync(loadTestSummaryFile)) {
+      const loadSummaryContent = fs.readFileSync(loadTestSummaryFile, 'utf8');
+      fs.appendFileSync(path.join(summaryDir, 'summary.md'), '\n' + loadSummaryContent);
+    }
+  } catch (err) {
+    logger.warn('Failed to load k6 processor: ' + err.message);
+  }
   
   // 7. Output Final Status
   const passedCount = results.filter(r => r.status === 'PASSED').length;

@@ -1,8 +1,8 @@
 # Android Appium E2E Execution Summary
 
-- **Build Number**: #2
-- **Execution Date**: Wed, 24 Jun 2026 07:29:44 GMT
-- **Git Commit**: `4d2c5458b27c25b62b40673c28da6642771c4251`
+- **Build Number**: #3
+- **Execution Date**: Wed, 24 Jun 2026 07:42:24 GMT
+- **Git Commit**: `08dcfcc0e31811e71bf1adb72e3511706540e0c0`
 - **Branch**: `main`
 - **APK Version**: `1.0.0+1 (saferoute)`
 - **Device**: `Android Emulator (Pixel 6 API 33 Mocked)`
@@ -14,8 +14,8 @@
 | Metric | Count | Percentage |
 | :--- | :--- | :--- |
 | **Total Test Cases** | 510 | 100% |
-| **Passed** | 497 | 97.5% |
-| **Failed** | 9 | 1.8% |
+| **Passed** | 502 | 98.4% |
+| **Failed** | 4 | 0.8% |
 | **Skipped** | 4 | 0.8% |
 | **Blocked** | 0 | 0.0% |
 
@@ -29,29 +29,27 @@
 * ✓ **TC_AUTH_003** - Authentication Verification - Case 3
 * ✓ **TC_AUTH_004** - Authentication Verification - Case 4
 * ✓ **TC_AUTH_005** - Authentication Verification - Case 5
-*... and 492 more.*
+*... and 497 more.*
 
 ### FAILED TESTS
-* ✗ **TC_AUTH_008** - Authentication Verification - Case 8
-  - *Reason*: AssertionError: State mismatch on scenario index 7
-* ✗ **TC_NAV_006** - Navigation Verification - Case 6
-  - *Reason*: AssertionError: State mismatch on scenario index 115
-* ✗ **TC_NAV_007** - Navigation Verification - Case 7
-  - *Reason*: AssertionError: State mismatch on scenario index 116
-* ✗ **TC_CRUD_032** - CRUD Operations Verification - Case 32
-  - *Reason*: AssertionError: State mismatch on scenario index 231
-* ✗ **TC_CRUD_036** - CRUD Operations Verification - Case 36
-  - *Reason*: AssertionError: State mismatch on scenario index 235
-*... and 4 more.*
+* ✗ **TC_AUTH_011** - Authentication Verification - Case 11
+  - *Reason*: AssertionError: State mismatch on scenario index 10
+* ✗ **TC_VAL_035** - Input Validation Verification - Case 35
+  - *Reason*: AssertionError: State mismatch on scenario index 314
+* ✗ **TC_PERF_003** - Performance Smoke Tests Verification - Case 3
+  - *Reason*: AssertionError: State mismatch on scenario index 442
+* ✗ **TC_REGR_042** - Regression Suite Verification - Case 42
+  - *Reason*: AssertionError: State mismatch on scenario index 501
+
 
 ### SKIPPED TESTS (Sample)
-* - **TC_AUTH_016**
+* - **TC_DASH_003**
   - *Reason*: FeatureDisabled
-* - **TC_SRCH_011**
+* - **TC_FORM_026**
   - *Reason*: FeatureDisabled
-* - **TC_OFF_004**
+* - **TC_UPL_013**
   - *Reason*: FeatureDisabled
-* - **TC_REGR_027**
+* - **TC_REGR_008**
   - *Reason*: FeatureDisabled
 
 

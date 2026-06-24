@@ -1,7 +1,7 @@
 # Android Appium E2E Execution Summary
 
 - **Build Number**: #1
-- **Execution Date**: Wed, 24 Jun 2026 07:10:41 GMT
+- **Execution Date**: Wed, 24 Jun 2026 07:38:12 GMT
 - **Git Commit**: `N/A`
 - **Branch**: `main`
 - **APK Version**: `1.0.0+1 (saferoute)`
@@ -14,9 +14,9 @@
 | Metric | Count | Percentage |
 | :--- | :--- | :--- |
 | **Total Test Cases** | 510 | 100% |
-| **Passed** | 505 | 99.0% |
-| **Failed** | 2 | 0.4% |
-| **Skipped** | 3 | 0.6% |
+| **Passed** | 498 | 97.6% |
+| **Failed** | 5 | 1.0% |
+| **Skipped** | 7 | 1.4% |
 | **Blocked** | 0 | 0.0% |
 
 ---
@@ -29,23 +29,33 @@
 * ✓ **TC_AUTH_003** - Authentication Verification - Case 3
 * ✓ **TC_AUTH_004** - Authentication Verification - Case 4
 * ✓ **TC_AUTH_005** - Authentication Verification - Case 5
-*... and 500 more.*
+*... and 493 more.*
 
 ### FAILED TESTS
-* ✗ **TC_VAL_012** - Input Validation Verification - Case 12
-  - *Reason*: AssertionError: State mismatch on scenario index 291
-* ✗ **TC_SESS_001** - Session Management Verification - Case 1
-  - *Reason*: AssertionError: State mismatch on scenario index 340
+* ✗ **TC_AZ_019** - Authorization Verification - Case 19
+  - *Reason*: AssertionError: State mismatch on scenario index 58
+* ✗ **TC_REG_003** - Registration Verification - Case 3
+  - *Reason*: AssertionError: State mismatch on scenario index 72
+* ✗ **TC_VAL_002** - Input Validation Verification - Case 2
+  - *Reason*: AssertionError: State mismatch on scenario index 281
+* ✗ **TC_ACC_001** - Accessibility Verification - Case 1
+  - *Reason*: AssertionError: State mismatch on scenario index 410
+* ✗ **TC_REGR_001** - Regression Suite Verification - Case 1
+  - *Reason*: AssertionError: State mismatch on scenario index 460
 
 
 ### SKIPPED TESTS (Sample)
-* - **TC_VAL_030**
+* - **TC_AZ_001**
   - *Reason*: FeatureDisabled
-* - **TC_NOTIF_018**
+* - **TC_PROF_015**
   - *Reason*: FeatureDisabled
-* - **TC_REGR_003**
+* - **TC_CRUD_028**
   - *Reason*: FeatureDisabled
-
+* - **TC_FILT_014**
+  - *Reason*: FeatureDisabled
+* - **TC_NOTIF_015**
+  - *Reason*: FeatureDisabled
+*... and 2 more.*
 
 
 # ⚡ SafeRoute Load Testing Summary — Baseline (100 VUs x 1 Min)

@@ -5,8 +5,8 @@ export const options = {
   scenarios: {
     api_load: {
       executor: 'constant-vus',
-      vus: 10,
-      duration: '10s',
+      vus: 100,
+      duration: '1m',
     },
   },
   thresholds: {

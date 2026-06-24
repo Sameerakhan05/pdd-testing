@@ -12,8 +12,9 @@ async function main() {
   });
 
   try {
-    console.log("Navigating to http://localhost:8080/ ...");
-    await browser.url('http://localhost:8080/');
+    const targetUrl = process.argv[2] || 'https://8872b8a151f4dc.lhr.life';
+    console.log(`Navigating to ${targetUrl} ...`);
+    await browser.url(targetUrl);
     
     console.log("Waiting 5 seconds for page load...");
     await browser.pause(5000);
@@ -30,8 +31,8 @@ async function main() {
     }
     console.log("====================================================\n");
 
-    const html = await browser.getHTML('body');
-    console.log("Body HTML content length:", html.length);
+    const title = await browser.getTitle();
+    console.log("Page Title:", title);
     
   } catch (err) {
     console.error("Error during browser check:", err);
